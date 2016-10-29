@@ -30,7 +30,11 @@ getMorph <- function(sentence, type="noun")
   sentence <- gsub("\r", " ", sentence)
   sentence <- gsub("\n", " ", sentence)
   
-  if(endsWith(sentence, ".txt")) {
+  if(identical(sentence, "")){     #newly input!!!
+    #print("No characters")
+    return("")
+  }
+  else if(endsWith(sentence, ".txt")) {
     if(type=="noun") {
     .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "N")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
       print("Created noun result file result.txt in ./RHINO2.5.3/WORK/RHINO/")
