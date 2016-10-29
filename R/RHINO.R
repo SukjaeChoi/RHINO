@@ -30,7 +30,7 @@ getMorph <- function(sentence, type="noun")
   sentence <- gsub("\r", " ", sentence)
   sentence <- gsub("\n", " ", sentence)
   
-  if(identical(sentence, "")){     #newly input!!!
+  if(identical(sentence, "")||identical(sentence, " ")){
     #print("No characters")
     return("")
   }
