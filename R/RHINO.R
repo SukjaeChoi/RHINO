@@ -29,6 +29,7 @@ getMorph <- function(sentence, type="noun")
   sentence <- gsub("\r\n", " ", sentence)
   sentence <- gsub("\r", " ", sentence)
   sentence <- gsub("\n", " ", sentence)
+  sentence <- gsub("  ", " ", sentence)
   
   if(identical(sentence, "")||identical(sentence, " ")){
     #print("No characters")
