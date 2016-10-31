@@ -18,7 +18,7 @@ initRhino <- function() {
 #' Get analyzed Korean morph. The initRhino() must be executed once the first.
 #' @param sentence Korean sentences. Try Korean words or sentences.
 #' @param type The Part-Of-Speech type you want to extract. noun(NNG, NNP, NP), verb(VV, VA, XR), NNG, NNP, NP, NNB, VV, VA, XR, VX. Default is noun.
-#' @param file If file itself is input (currently not realized. Use lapply()). See the example at my blog(http://blog.naver.com/lingua/220848428864)
+#' @param file Currently not realized. Default is FALSE.
 #' @return vector of extracted morph result
 #' @export
 #' @examples 
