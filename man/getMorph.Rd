@@ -4,12 +4,14 @@
 \alias{getMorph}
 \title{getMorph}
 \usage{
-getMorph(sentence, type = "noun")
+getMorph(sentence, type = "noun", file = FALSE)
 }
 \arguments{
 \item{sentence}{Korean sentences. Try Korean words or sentences.}
 
-\item{type}{the Part-Of-Speech type you want to extract. noun(NNG, NNP, NP), verb(VV, VA, XR), NNG, NNP, NP, NNB, VV, VA, XR, VX. Default is noun.}
+\item{type}{The Part-Of-Speech type you want to extract. noun(NNG, NNP, NP), verb(VV, VA, XR), NNG, NNP, NP, NNB, VV, VA, XR, VX. Default is noun.}
+
+\item{file}{If file itself is input (currently not realized. Use lapply()). See the example at my blog(http://blog.naver.com/lingua/220848428864)}
 }
 \value{
 vector of extracted morph result
