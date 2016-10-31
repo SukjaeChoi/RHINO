@@ -24,7 +24,7 @@ initRhino <- function() {
 #' initRhino()
 #' getMorph("Input Korean sentences here.", "NNP")
 
-getMorph <- function(sentence, type="noun")
+getMorph <- function(sentence, type="noun", file=FALSE)
 {
   sentence <- gsub("\r\n", " ", sentence)
   sentence <- gsub("\r", " ", sentence)
@@ -35,7 +35,7 @@ getMorph <- function(sentence, type="noun")
     #print("No characters")
     #return("")
   }
-  else if(endsWith(sentence, ".txt")) {
+  else if(file=TRUE) {
     if(type=="noun") {
     .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "N")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
       print("Created noun result file result.txt in ./RHINO2.5.3/WORK/RHINO/")
