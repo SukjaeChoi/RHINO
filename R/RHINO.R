@@ -18,7 +18,7 @@ initRhino <- function() {
 #' Get analyzed Korean morph. The initRhino() must be executed once the first.
 #' @param sentence Korean sentences. Try Korean words or sentences.
 #' @param type The Part-Of-Speech type you want to extract. noun(NNG, NNP, NP), verb(VV, VA, XR), NNG, NNP, NP, NNB, VV, VA, XR, VX. Default is noun.
-#' @param file If file itself is input (currently not realized. Use lapply()). See the example at my blog(http://blog.naver.com/lingua/220848428864).
+#' @param file If file itself is input (currently not realized. Use lapply()). See the example at my blog(http://blog.naver.com/lingua/220848428864)
 #' @return vector of extracted morph result
 #' @export
 #' @examples 
@@ -32,11 +32,11 @@ getMorph <- function(sentence, type="noun", file=FALSE)
   sentence <- gsub("\n", " ", sentence)
   sentence <- gsub("^\\s+|\\s+$", "", sentence)
   
-  if(identical(sentence, "")||identical(sentence, " ")){
+  if(identical(sentence, "")||identical(sentence, " ")){     #newly input!!!
     #print("No characters")
     #return("")
   }
-  else if(file=TRUE) {
+  else if(file==TRUE) {
     if(type=="noun") {
     .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "N")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
       print("Created noun result file result.txt in ./RHINO2.5.3/WORK/RHINO/")
