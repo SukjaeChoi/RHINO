@@ -11,7 +11,7 @@ getMorph(sentence, type = "noun", file = FALSE)
 
 \item{type}{The Part-Of-Speech type you want to extract. noun(NNG, NNP, NP), verb(VV, VA, XR), NNG, NNP, NP, NNB, VV, VA, XR, VX. Default is noun.}
 
-\item{file}{If file itself is input (currently not realized. Use lapply()). See the example at my blog(http://blog.naver.com/lingua/220848428864)}
+\item{file}{Currently not realized. Default is FALSE.}
 }
 \value{
 vector of extracted morph result
