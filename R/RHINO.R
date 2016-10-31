@@ -32,7 +32,8 @@ getMorph <- function(sentence, type="noun")
   sentence <- gsub("^\\s+|\\s+$", "", sentence)
   
   if(identical(sentence, "")||identical(sentence, " ")){
-    #print("No characters")
+    print("No characters")
+    print(sentence)
     return("")
   }
   else if(endsWith(sentence, ".txt")) {
