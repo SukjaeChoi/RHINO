@@ -33,8 +33,7 @@ getMorph <- function(sentence, type="noun")
   
   if(identical(sentence, "")||identical(sentence, " ")){
     #print("No characters")
-    #print(sentence)
-    return(null)
+    #return("")
   }
   else if(endsWith(sentence, ".txt")) {
     if(type=="noun") {
