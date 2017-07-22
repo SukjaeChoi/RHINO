@@ -18,8 +18,7 @@ initRhino <- function() {
     }
   }
   
-  rhinoObj <<- .jnew("rhino/RHINO")
-  .jcall(rhinoObj, returnSig = "V", "ExternInit", "R")
+  .jcall(.jnew("rhino/RHINO"), returnSig = "V", "ExternInit", "R")
 }
 
 
@@ -50,16 +49,16 @@ getMorph <- function(sentence, type="noun", file=FALSE)
   }
   else if(file==TRUE) {
     if(type=="noun") {
-      .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "N")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
+      .jcall(.jnew("rhino/RHINO"), returnSig = "V", "analyzingText_rJava", "N")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
       print("Created noun result file result.txt in ./RHINO2.5.3/WORK/RHINO/")
     } else if(type=="verb") {
-      .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "V")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
+      .jcall(.jnew("rhino/RHINO"), returnSig = "V", "analyzingText_rJava", "V")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
       print("Created verb result file result.txt in ./RHINO2.5.3/WORK/RHINO/")
     } else{
       print("Not Supported Type")
     }
   } else {
-    result <- .jcall(rhinoObj, returnSig = "S", "getMorph", sentence, type)
+    result <- .jcall(.jnew("rhino/RHINO"), returnSig = "S", "getMorph", sentence, type)
     Encoding(result) <- "UTF-8"
     resultVec <- unlist(strsplit(result, '\r\n'))
     return(resultVec)
