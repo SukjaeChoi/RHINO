@@ -28,7 +28,7 @@ initRhino <- function() {
   }
   
   message('current version of RHINO, connRHINO will generate for keep-alive connection with java. Do not remove connRHINO object. Inspect this soon. Sorry to inconvinence.')
-  connRHINO <- .jnew("rhino/RHINO")
+  connRHINO <<- .jnew("rhino/RHINO")
   .jcall(connRHINO, returnSig = "V", "ExternInit", "R")
 }
 
