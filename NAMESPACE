@@ -3,4 +3,3 @@
 export(getMorph)
 export(initRhino)
 import("rJava")
-RHINO::initRhino()
