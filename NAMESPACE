@@ -3,3 +3,4 @@
 export(getMorph)
 export(initRhino)
 import("rJava")
+initRhino()
