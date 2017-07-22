@@ -12,11 +12,18 @@ initRhino <- function() {
   
   if(.Platform$OS.type == "unix"){ # temporary patch for unix-like operation system (Ubuntu linux, Mac, FreeBSD, etc.)
     
-    message('current version of RHINO, connRHINO will generate symbolic link of "home" or "usr" on your working directory for load dictionary. Inspect this soon. Sorry to inconvinence.')
-    if(grep("home", .libPaths()[1]) == 1 && (!file.exists('home'))){
-      system(paste0('ln -s ', '/home ', 'home'))
-    } else if(grep("usr", .libPaths()[1]) == 1 && (!file.exists('usr'))){
-      system(paste0('ln -s ', '/usr ', 'usr'))
+    if(grep("home", .libPaths()[1]) == 1){
+      if(!file.exists('home')){
+        message('current version of RHINO, connRHINO will generate symbolic link of "home" on your working directory for load dictionary. Inspect this soon. Sorry to inconvinence.')
+        
+        system(paste0('ln -s ', '/home ', 'home'))
+      }
+    } else if(grep("usr", .libPaths()[1]) == 1){
+      if(!file.exists('usr')){
+        message('current version of RHINO, connRHINO will generate symbolic link of "usr" on your working directory for load dictionary. Inspect this soon. Sorry to inconvinence.')
+        
+        system(paste0('ln -s ', '/usr ', 'usr'))
+      }
     }
   }
   
