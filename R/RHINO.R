@@ -48,6 +48,9 @@ initRhino <- function() {
 
 getMorph <- function(sentence, type="noun", file=FALSE)
 {
+  if(!exists('.connRHINO')){
+    initRhino()
+  }
   sentence <- gsub("\r\n", " ", sentence)
   sentence <- gsub("\r", " ", sentence)
   sentence <- gsub("\n", " ", sentence)
