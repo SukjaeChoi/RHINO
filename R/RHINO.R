@@ -29,8 +29,8 @@ initRhino <- function() {
   
   .connRHINO <<- .jnew("rhino/RHINO")
   .jcall(.connRHINO, returnSig = "V", "ExternInit", "R")
-
-
+  
+  
 }
 
 #' getMorph
@@ -46,30 +46,27 @@ initRhino <- function() {
 #' getMorph("Input Korean sentences here.", "NNP")
 
 
-getMorph <- function(sentence, type="noun", file=FALSE)
-{
-  if(!exists('.connRHINO')){
+getMorph <- function(sentence, type = "noun", file = FALSE, fileName = 'getMorphResult.txt'){
+  if(!exists('.connRHINO')){ # connect with RHINO engine
     initRhino()
   }
+  
+  # remove any blanks
   sentence <- gsub("\r\n", " ", sentence)
   sentence <- gsub("\r", " ", sentence)
   sentence <- gsub("\n", " ", sentence)
   sentence <- gsub("^\\s+|\\s+$", "", sentence)
   
+  
   if(identical(sentence, "")||identical(sentence, " ")){     #newly input!!!
     #print("No characters")
     #return("")
-  }
-  else if(file==TRUE) {
-    if(type=="noun") {
-      .jcall(.connRHINO, returnSig = "V", "analyzingText_rJava", "N")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
-      print("Created noun result file result.txt in ./RHINO2.5.3/WORK/RHINO/")
-    } else if(type=="verb") {
-      .jcall(.connRHINO, returnSig = "V", "analyzingText_rJava", "V")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
-      print("Created verb result file result.txt in ./RHINO2.5.3/WORK/RHINO/")
-    } else{
-      print("Not Supported Type")
-    }
+  } else if(file==TRUE) {
+    result <- .jcall(.connRHINO, returnSig = "S", "getMorph", sentence, type)
+    Encoding(result) <- "UTF-8"
+    resultVec <- unlist(strsplit(result, '\r\n'))
+    write(x = resultVec, file = fileName)
+    return(resultVec)
   } else {
     result <- .jcall(.connRHINO, returnSig = "S", "getMorph", sentence, type)
     Encoding(result) <- "UTF-8"
