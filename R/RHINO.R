@@ -13,15 +13,15 @@ initRhino <- function() {
   if(.Platform$OS.type == "unix"){ # temporary patch for unix-like operation system (Ubuntu linux, Mac, FreeBSD, etc.)
     
     message('current version of RHINO, connRHINO will generate symbolic link of "home" or "usr" on your working directory for load dictionary. Inspect this soon. Sorry to inconvinence.')
-    if(grep("home", .libPaths()[1]) == 1){
+    if(grep("home", .libPaths()[1]) == 1 && (!file.exists('home'))){
       system(paste0('ln -s ', '/home ', 'home'))
-    } else if(grep("usr", .libPaths()[1]) == 1){
+    } else if(grep("usr", .libPaths()[1]) == 1 && (!file.exists('usr'))){
       system(paste0('ln -s ', '/usr ', 'usr'))
     }
   }
   
   message('current version of RHINO, connRHINO will generate for keep-alive connection with java. Do not remove connRHINO object. Inspect this soon. Sorry to inconvinence.')
-  connRHINO <<- .jnew("rhino/RHINO")
+  connRHINO <- .jnew("rhino/RHINO")
   .jcall(connRHINO, returnSig = "V", "ExternInit", "R")
 }
 
