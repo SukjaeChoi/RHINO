@@ -14,13 +14,13 @@ initRhino <- function() {
     
     if(grep("home", .libPaths()[1]) == 1){
       if(!file.exists('home')){
-        message('current version of RHINO, connRHINO will generate symbolic link of "home" on your working directory for load dictionary. Inspect this soon. Sorry to inconvinence.')
+        message('current version of RHINO, RHINO will generate symbolic link of "home" on your working directory for load dictionary. Inspect this soon. Sorry to inconvinence.')
         
         system(paste0('ln -s ', '/home ', 'home'))
       }
     } else if(grep("usr", .libPaths()[1]) == 1){
       if(!file.exists('usr')){
-        message('current version of RHINO, connRHINO will generate symbolic link of "usr" on your working directory for load dictionary. Inspect this soon. Sorry to inconvinence.')
+        message('current version of RHINO, RHINO will generate symbolic link of "usr" on your working directory for load dictionary. Inspect this soon. Sorry to inconvinence.')
         
         system(paste0('ln -s ', '/usr ', 'usr'))
       }
