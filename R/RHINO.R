@@ -6,6 +6,18 @@
 #' initRhino()
 
 initRhino <- function() {
+  if(grep("1.8.0", .jcall("java/lang/System", "S", "getProperty", "java.runtime.version")) != 1){
+    stop('RHINO requires Oracle Java 8 environment. Stop initiation of Rhino.')
+  }
+  
+  if(.Platform$OS.type == "unix"){ # temporary patch for unix-like operation system (ubuntu linux, )
+    if(grep("home", .libPaths()[1]) == 1){
+      system(paste0('ln -s ', '/home ', 'home'))
+    } else if(grep("usr", .libPaths()[1]) == 1){
+      system(paste0('ln -s ', '/usr ', 'usr'))
+    }
+  }
+  
   rhinoObj <<- .jnew("rhino/RHINO")
   .jcall(rhinoObj, returnSig = "V", "ExternInit", "R")
 }
@@ -38,7 +50,7 @@ getMorph <- function(sentence, type="noun", file=FALSE)
   }
   else if(file==TRUE) {
     if(type=="noun") {
-    .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "N")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
+      .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "N")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
       print("Created noun result file result.txt in ./RHINO2.5.3/WORK/RHINO/")
     } else if(type=="verb") {
       .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "V")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
