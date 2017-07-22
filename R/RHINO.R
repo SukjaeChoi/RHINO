@@ -1,6 +1,3 @@
-.connRHINO <- function(x = "rhino/RHINO") .jnew(x)
-.jcall(.connRHINO, returnSig = "V", "ExternInit", "R")
-
 #' initRhino
 #'
 #' Initializing RHINO.
@@ -29,6 +26,11 @@ initRhino <- function() {
       }
     }
   }
+  
+  .connRHINO <<- function(x = "rhino/RHINO") .jnew(x)
+  .jcall(.connRHINO, returnSig = "V", "ExternInit", "R")
+
+
 }
 
 #' getMorph
