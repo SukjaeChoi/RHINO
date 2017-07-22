@@ -1,8 +1,10 @@
-# RHINO: An Morpological Analyzer for Korean Hangeul
-- RHINO is abbreviation of the '**R**eal **H**angeul morpheme **I**nterpreter for complex structured **N**atural language **O**bject'. 
-- current version is 2.5.4
+# RHINO: An accurate Morphological Analyzer for 'Hangeul.'
+- RHINO is abbreviation of the '**R**ealistic **H**angeul morpheme **I**nterpreter for complex structured **N**atural language **O**bject'. 
+- RHINO most efficient Korean Morphological Analyzer may solve issues of morphological ambiguity and compound words in Korean Natural Language Text Processing with the dynamic dictionary related techniques.
+- The current version of RHINO is 2.5.4
 - Developer: Sukjae Choi <lingua72@gmail.com>
 - Related blog (in Korean): http://blog.naver.com/lingua/220844372930
+
 ## Citation (Style of American Psychological Association)
 Choi, S. (2014). Implementation of Open Type Korean Morphological
 Analyzer Based on Collective Intelligence. *Language & Information Society 22*, 53-82. Retrieved from http://kiss.kstudy.com/journal/thesis_name.asp?key=3261537
