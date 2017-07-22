@@ -3,7 +3,7 @@
 - RHINO most efficient Korean Morphological Analyzer what may solve issues of morphological ambiguity and compound words in Korean Natural Language Text Processing with the innovatively designed and developed dynamic dictionary related techniques.
 - RHINO parses Korean words by morpheme and part-of-speech, dictionaries are base on Korean Modern Tagged Corpus(12 million phrases scale) which was made by the Korean government.
 - The current version of RHINO is 2.5.4
-- Developer: Sukjae Choi <lingua72@gmail.com>
+- Developer: Sukjae Choi <lingua72@gmail.com> (Ph.D in Korean linguistics)
 - Related blog (in Korean): http://blog.naver.com/lingua/220844372930
 
 ## Citation (Style of American Psychological Association)
