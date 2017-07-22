@@ -11,6 +11,10 @@
 #' initRhino()
 #' getMorph("Input Korean sentences here.", "NNP")
 
+initRhinoEnv <- new.env()
+sys.source("initRhino.R", envir = initRhinoEnv)
+attach(initRhinoEnv)
+
 getMorph <- function(sentence, type="noun", file=FALSE)
 {
   sentence <- gsub("\r\n", " ", sentence)
