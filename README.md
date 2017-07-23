@@ -1,7 +1,7 @@
 # RHINO: A most cogent and efficient Morphological Analyser for Hangeul.
 - RHINO is abbreviation of the '**R**ealistic **H**angeul morpheme **I**nterpreter for complex-structured **N**atural language **O**bject'. RHINO can call as '**R**eal **H**angul **IN**put **O**bject' already officially presented the name in Choi (2014).
 - RHINO is most cogent and efficient Korean Morphological Analyser what may solve issues of morphological ambiguity and compound words in Korean Natural Language Text Processing with the innovatively designed and developed dynamic dictionary related techniques by subject matter expert of Korean Linguistics.
-- So that RHINO run lightly but processing rightly even do not use sophisticated statistical techniques like the Deep Neural Network.
+- So that RHINO run lightly but processing rightly even without sophisticated statistical techniques like the Deep Neural Network.
 - RHINO parses Korean words by morpheme and part-of-speech, dictionaries are base on Korean Modern Tagged Corpus(12 million phrases scale) which was made by the Korean government.
 - The current version of RHINO is 2.5.4
 - Developer: Sukjae Choi <lingua72@gmail.com> (PhD in Korean Linguistics)
