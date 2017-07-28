@@ -51,28 +51,33 @@ getMorph <- function(sentence, type = "noun", file = FALSE, fileName = 'getMorph
     .connRHINO <<- initRhino()
   }
   
-  # remove any blanks
-  sentence <- gsub("\r\n", " ", sentence)
-  sentence <- gsub("\r", " ", sentence)
-  sentence <- gsub("\n", " ", sentence)
-  sentence <- gsub("^\\s+|\\s+$", "", sentence)
-  
-  
-  if(identical(sentence, "")||identical(sentence, " ")){     #newly input!!!
-    #print("No characters")
-    #return("")
-  } else if(file==TRUE) {
-    result <- .jcall(.connRHINO, returnSig = "S", "getMorph", sentence, type)
-    Encoding(result) <- "UTF-8"
-    resultVec <- unlist(strsplit(result, '\r\n'))
-    write(x = resultVec, file = fileName)
-    return(resultVec)
+  if(!is.na(sentence) | !is.null(sentence)){
+    # remove any blanks
+    sentence <- gsub("\r\n", " ", sentence)
+    sentence <- gsub("\r", " ", sentence)
+    sentence <- gsub("\n", " ", sentence)
+    sentence <- gsub("^\\s+|\\s+$", "", sentence)
+
+
+    if(identical(sentence, "")||identical(sentence, " ")){     #newly input!!!
+      #print("No characters")
+      #return("")
+    } else if(file==TRUE) {
+      result <- .jcall(.connRHINO, returnSig = "S", "getMorph", sentence, type)
+      Encoding(result) <- "UTF-8"
+      resultVec <- unlist(strsplit(result, '\r\n'))
+      write(x = resultVec, file = fileName)
+      return(resultVec)
+    } else {
+      result <- .jcall(.connRHINO, returnSig = "S", "getMorph", sentence, type)
+      Encoding(result) <- "UTF-8"
+      resultVec <- unlist(strsplit(result, '\r\n'))
+      return(resultVec)
+    }
   } else {
-    result <- .jcall(.connRHINO, returnSig = "S", "getMorph", sentence, type)
-    Encoding(result) <- "UTF-8"
-    resultVec <- unlist(strsplit(result, '\r\n'))
-    return(resultVec)
+    stop('Did you enter the sentence rightly?')
   }
+  
 }
 
 
