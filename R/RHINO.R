@@ -48,7 +48,7 @@ initRhino <- function() {
 
 getMorph <- function(sentence, type = "noun", file = FALSE, fileName = 'getMorphResult.txt'){
   if(!exists('.connRHINO')){ # connect with RHINO engine
-    initRhino()
+    .connRHINO <<- initRhino()
   }
   
   # remove any blanks
