@@ -29,7 +29,7 @@ initRhino <- function() {
   
   .connRHINO <<- .jnew("rhino/RHINO")
   .jcall(.connRHINO, returnSig = "V", "ExternInit", "R")
-  
+  return(.connRHINO)
   
 }
 
