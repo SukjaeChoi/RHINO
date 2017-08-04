@@ -12,7 +12,7 @@ initRhino <- function() {
   
   if(.Platform$OS.type == "unix"){ # temporary patch for unix-like operation system (Ubuntu linux, Mac, FreeBSD, etc.)
     
-    if(grep("home", .libPaths()[1]) == 1) | grep("usr", .libPaths()[1]) == 1){
+    if(grep("home", .libPaths()[1]) == 1 | grep("usr", .libPaths()[1]) == 1)){
        if(!file.exists('usr')){
         message('current version of RHINO, RHINO will generate symbolic link of "usr" on your working directory for load dictionary. Inspect this soon. Sorry to inconvinence.')
         
