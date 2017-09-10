@@ -4,7 +4,8 @@
 \alias{getMorph}
 \title{getMorph}
 \usage{
-getMorph(sentence, type = "noun", file = FALSE)
+getMorph(sentence, type = "noun", file = FALSE,
+  fileName = "getMorphResult.txt")
 }
 \arguments{
 \item{sentence}{Korean sentences. Try Korean words or sentences.}
@@ -23,4 +24,3 @@ Get analyzed Korean morph. The initRhino() must be executed once the first.
 initRhino()
 getMorph("Input Korean sentences here.", "NNP")
 }
-

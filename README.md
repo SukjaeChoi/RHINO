@@ -166,3 +166,11 @@ Backup was just finished!
 [43] "년"                     "지금"                   "‘국립국어원’으로"    
 [46] "오늘"                  
 ```
+
+## software quality check
+### windows environment
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/seonghobae/RHINO?branch=master&svg=true)](https://ci.appveyor.com/project/seonghobae/RHINO)
+### ubuntu environment
+[![Travis-CI Build Status](https://travis-ci.org/seonghobae/RHINO.svg?branch=master)](https://travis-ci.org/seonghobae/RHINO)
+### code coverage test
+[![Coverage Status](https://img.shields.io/codecov/c/github/seonghobae/RHINO/master.svg)](https://codecov.io/github/seonghobae/RHINO?branch=master)

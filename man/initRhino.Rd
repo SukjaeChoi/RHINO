@@ -12,4 +12,3 @@ Initializing RHINO.
 \examples{
 initRhino()
 }
-
