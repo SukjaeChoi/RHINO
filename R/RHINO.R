@@ -21,7 +21,7 @@ initRhino <- function() {
 #' @param file Currently not realized. Default is FALSE.
 #' @return vector of extracted morph result
 #' @export
-#' @examples 
+#' @examples
 #' initRhino()
 #' getMorph("Input Korean sentences here.", "NNP")
 
@@ -31,7 +31,7 @@ getMorph <- function(sentence, type="noun", file=FALSE)
   sentence <- gsub("\r", " ", sentence)
   sentence <- gsub("\n", " ", sentence)
   sentence <- gsub("^\\s+|\\s+$", "", sentence)
-  
+
   if(identical(sentence, "")||identical(sentence, " ")){     #newly input!!!
     #print("No characters")
     #return("")
@@ -39,14 +39,14 @@ getMorph <- function(sentence, type="noun", file=FALSE)
   else if(file==TRUE) {
     if(type=="noun") {
     .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "N")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
-      print("Created noun result file result.txt in ./RHINO2.5.3/WORK/RHINO/")
+      print("Created noun result file result.txt in ./RHINO2.5.5/WORK/RHINO/")
     } else if(type=="verb") {
       .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "V")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
-      print("Created verb result file result.txt in ./RHINO2.5.3/WORK/RHINO/")
+      print("Created verb result file result.txt in ./RHINO2.5.5/WORK/RHINO/")
     } else{
       print("Not Supported Type")
     }
-  } else {
+  } else {   #### This is the currently used. Above is not used!!
     result <- .jcall(rhinoObj, returnSig = "S", "getMorph", sentence, type)
     Encoding(result) <- "UTF-8"
     resultVec <- unlist(strsplit(result, '\r\n'))
