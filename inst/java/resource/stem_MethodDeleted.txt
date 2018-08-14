@@ -1,13 +1,10 @@
 ﻿abcdefghijklmnopqrstuvwxyz	SL
-김일성사회주의청년동맹중앙위원회	NNP
 동아시아오세아니아증권거래소연맹	NNP
-호남성무산계급혁명파대연합위원회	NNP
 백범김구선생시해진상규명위원회	NNP
 부산아시아경기대회조직위원회	NNP
 소니컴퓨터엔터테인먼트코리아	NNP
 전국목자회정의평화실천협의회	NNP
 전국목회자정의평화실천협의회	NNP
-한국민단효고현권익옹호위원회	NNP
 한국천주교평신도사도직협의회	NNP
 동아자유언론수호투쟁위원회	NNP
 민족통일민주주의노동자동맹	NNP
@@ -16,17 +13,13 @@
 조선자유언론수호투쟁위원회	NNP
 한국농어민후계자중앙연합회	NNP
 한국무형문화재기능보존협회	NNP
-만경대학생소년궁전예술단	NNP
 말일성도예수그리스도교회	NNP
 명주목단문삼회장겹저고리	NNG
-새정치국민회의홍보위원회	NNP
 조선사회주의노동청년동맹	NNP
 조선프로레타리아문학동맹	NNP
 조선프롤레타리아예술동맹	NNP
 천주교정의구현전국사제단	NNP
 한국농업경영인중앙연합회	NNP
-한국수출포장공업주식회사	NNP
-한국양돈협동조합연합회장	NNP
 한국영상투자개발주식회사	NNP
 한국자원봉사센터협의회장	NNP
 한국정보통신인력개발센터	NNP
@@ -77,9 +70,6 @@
 조선민주주의인민공화국	NNP
 천주교정의구현전국연합	NNP
 카톨릭매스컴선교위원회	NNP
-컴퓨터프로그램표준조항	NNG
-코린아세틸트란스퍼라제	NNG
-태평양전쟁희생자유족회	NNP
 특정경제범죄가중처벌법	NNP
 한국가톨릭나사업연합회	NNP
 한국공연예술진흥협의회	NNP
@@ -88,7 +78,6 @@
 한국근현대민족문학총서	NNP
 한국기능미화중앙협의회	NNP
 한국농어민후계자연합회	NNP
-한국능률협회매니지먼트	NNP
 한국대학도서출판협의회	NNP
 한국문예학술저작권협회	NNP
 한국문화산업진흥위원회	NNP
@@ -121,7 +110,6 @@ copyrights	NNG
 강서청소년복지교민회	NNP
 경기도과천지구출장소	NNP
 경성공립고등보통학교	NNP
-고교교육개혁추진실장	NNG
 광주여자기독교청년회	NNP
 구로지역사회발전센타	NNP
 국가과학기술자문회의	NNP
@@ -206,7 +194,6 @@ copyrights	NNG
 전국한의대학생연합회	NNP
 전국한의대학생회연합	NNP
 전북기독교교회협의회	NNP
-전신일학교교사친목회	NNP
 정읍군민란시여항청요	NNP
 조선기독청년회연합회	NNP
 조선문학예술인총동맹	NNP
@@ -633,8 +620,6 @@ copyright	NNG
 한국청년구상작가회	NNP
 한국청년단체협의회	NNP
 한국통신연구개발단	NNP
-한국페스티발앙상블	NNP
-한국피코노조후원회	NNP
 한국현대무용진흥회	NNP
 한국현대문학비평사	NNP
 한국형사정책연구원	NNP
@@ -683,8 +668,6 @@ copyright	NNG
 관음제도본원진경	NNG
 광림사회복지재단	NNP
 광림세미나하우스	NNP
-광명콘크리트공업	NNP
-광주국어교사모임	NNP
 광주민주화항쟁사	NNP
 광주민중항쟁연합	NNP
 광주어린이대공원	NNP
@@ -744,7 +727,6 @@ copyright	NNG
 낙동강유역환경청	NNP
 남산영화감독협회	NNP
 남아프리카공화국	NNP
-내몽고청년여행사	NNP
 내셔널지오그래픽	NNP
 네셔널지오그래픽	NNP
 노보고르데예프까	NNP
@@ -28816,8 +28798,6 @@ TV경인	NNP
 영레이디	NNP
 영명식당	NNP
 영명신궁	NNP
-영목노사	NNP
-영목영지	NNP
 영문학도	NNG
 영문학사	NNG
 영문학자	NNG
@@ -28826,11 +28806,9 @@ TV경인	NNP
 영불해협	NNP
 영사운드	NNP
 영산가고	NNP
-영산회상	NNP
 영상업계	NNG
 영생교주	NNG
 영생불멸	NNG
-영서필름	NNP
 영세무궁	XR
 영세불망	NNG
 영승유적	NNP
@@ -44503,7 +44481,6 @@ YTN	NNP
 기자협	NNG
 기자회	NNG
 기잡이	NNG
-기장군	NNP
 기장떡	NNG
 기재비	NNG
 기저귀	NNG
@@ -59901,7 +59878,6 @@ YTN	NNP
 비온디	NNP
 비올라	NNG
 비욘드	NNG
-비욜링	NNP
 비울음	NNG
 비웃음	NNG
 비워두	VV
@@ -59932,7 +59908,6 @@ YTN	NNP
 비주얼	NNG
 비죽대	VV
 비준서	NNG
-비중격	NNG
 비즈킷	NNG
 비즐리	NNP
 비지땀	NNG
@@ -86672,6 +86647,7 @@ YTN	NNP
 테리어	NNG
 테리천	NNG
 테마항	NNP
+테마주	NNG
 테뫼식	NNG
 테미스	NNP
 테베노	NNP
@@ -92420,7 +92396,6 @@ YTN	NNP
 회원증	NNG
 회유조	NNG
 회유책	NNG
-회은실	NNP
 회음부	NNG
 회의감	NNG
 회의록	NNG
@@ -92429,7 +92404,6 @@ YTN	NNP
 회의실	NNG
 회의장	NNG
 회의체	NNG
-회인배	NNG
 회자수	NNG
 회장감	NNG
 회장국	NNG
@@ -98633,10 +98607,6 @@ SK	NNP
 남우	NNG
 남원	NNP
 남위	NNG
-남은	NNP
-남을	NNP
-남이	NNP
-남인	NNG
 남자	NNG
 남작	NNG
 남장	NNG
@@ -100310,7 +100280,6 @@ SK	NNP
 당포	NNP
 당풍	NNG
 당학	NNG
-당해	NNG
 당허	VV
 당헌	NNG
 당혜	NNG
@@ -101112,7 +101081,6 @@ SK	NNP
 돌땅	NNG
 돌떡	NNG
 돌띠	NNG
-돌려	NNG
 돌림	NNG
 돌막	NNG
 돌문	NNG
@@ -101907,9 +101875,6 @@ SK	NNP
 딜문	NNP
 딤섬	NNG
 딤플	NNG
-딥스	NNP
-딥시	NNP
-딩구	NNP
 딩굴	VV
 딩동	MAG
 따각	MAG
@@ -102382,7 +102347,6 @@ SK	NNP
 럭키	NNG
 런닝	NNG
 런던	NNP
-런지	NNP
 런칭	NNG
 럼주	NNG
 럿셀	NNP
@@ -103866,7 +103830,6 @@ SK	NNP
 명원	NNG
 명월	NNG
 명유	NNG
-명의	NNG
 명인	NNG
 명일	NNG
 명작	NNG
@@ -103907,7 +103870,6 @@ SK	NNP
 명필	NNG
 명학	NNG
 명함	NNG
-명허	NNG
 명화	NNG
 명확	XR
 명효	NNP
@@ -104074,7 +104036,6 @@ SK	NNP
 모항	NNG
 모해	NNG
 모험	NNG
-모헤	NNG
 모현	NNP
 모형	NNG
 모호	XR
@@ -104089,16 +104050,13 @@ SK	NNP
 목견	NNG
 목계	NNP
 목공	NNG
-목과	NNG
 목곽	NNG
 목관	NNG
 목교	NNG
 목근	NNG
 목기	NNG
 목깃	NNG
-목노	NNP
 목단	NNG
-목대	NNG
 목도	NNG
 목돈	NNG
 목동	NNG
@@ -112104,7 +112062,6 @@ SK	NNP
 스캇	NNP
 스캔	NNG
 스컬	NNP
-스케	NNP
 스콜	NNG
 스콧	NNP
 스쿨	NNG
@@ -114481,8 +114438,6 @@ SK	NNP
 양형	NNG
 양호	NNG
 양화	NNG
-양회	NNG
-양효	NNG
 얕보	VV
 얕잡	VV
 얘감	NNG
@@ -114492,8 +114447,6 @@ SK	NNP
 어가	NNG
 어간	NNG
 어감	NNG
-어개	NNG
-어갱	NNG
 어계	NNG
 어고	NNG
 어곡	NNG
@@ -114509,9 +114462,7 @@ SK	NNP
 어눌	XR
 어느	MM
 어는	MM
-어니	NNP
 어데	NP
-어도	NNG
 어동	NNG
 어두	NNG
 어둑	XR
@@ -122189,7 +122140,6 @@ SK	NNP
 죽이	VV
 죽장	NNG
 죽전	NNP
-죽정	NNP
 죽죽	MAG
 죽지	NNG
 죽창	NNG
@@ -122198,10 +122148,8 @@ SK	NNP
 죽천	NNP
 죽치	VV
 죽통	NNG
-죽하	NNP
 죽합	NNG
 준가	NNG
-준거	NNG
 준결	NNG
 준경	NNP
 준공	NNG
@@ -126744,6 +126692,7 @@ SK	NNP
 텐디	NNP
 텐서	NNG
 텐싱	NNP
+텐진	NNP
 텐트	NNG
 텐표	NNG
 텔덱	NNP
@@ -131537,7 +131486,6 @@ SK	NNP
 후실	NNG
 후안	NNP
 후앙	NNP
-후에	NNP
 후여	IC
 후염	NNG
 후엽	NNG

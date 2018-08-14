@@ -23,4 +23,3 @@ Get analyzed Korean morph. The initRhino() must be executed once the first.
 initRhino()
 getMorph("Input Korean sentences here.", "NNP")
 }
-
