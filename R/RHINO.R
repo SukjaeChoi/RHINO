@@ -17,16 +17,17 @@ initRhino <- function() {
 #'
 #' Get analyzed Korean morph. The initRhino() must be executed once the first.
 #' @param sentence Korean sentences. Try Korean words or sentences.
-#' @param type The Part-Of-Speech type you want to extract. noun(NNG, NNP, NP), verb(VV, VA, XR), NNG, NNP, NP, NNB, VV, VA, XR, VX. Default is noun.
+#' @param type The Part-Of-Speech type you want to extract. ALL(Every POS), noun(NNG, NNP, NP), verb(VV, VA, XR), NV(noun, verb), END(EC, EF), NNG, NNP, NP, NNB, VV, VA, XR, VX, EC, EF, EP. Default is noun.
 #' @param file Currently not realized. Default is FALSE.
 #' @return vector of extracted morph result
 #' @export
 #' @examples
 #' initRhino()
-#' getMorph("Input Korean sentences here.", "NNP")
+#' getMorph("Input Korean sentences here.", "noun")
 
 getMorph <- function(sentence, type="noun", file=FALSE)
 {
+  tryCatch({
   sentence <- gsub("\r\n", " ", sentence)
   sentence <- gsub("\r", " ", sentence)
   sentence <- gsub("\n", " ", sentence)
@@ -52,6 +53,17 @@ getMorph <- function(sentence, type="noun", file=FALSE)
     resultVec <- unlist(strsplit(result, '\r\n'))
     return(resultVec)
   }
+
+  },
+  error = function (condition) {
+    #print("RPART_ERROR:")
+    #print(paste("  Message:",conditionMessage(condition)))
+    #print(paste("  Call: ",conditionCall(condition)))
+  },
+  finally= function() {
+
+  }
+  )
 }
 
 

@@ -9,7 +9,7 @@ getMorph(sentence, type = "noun", file = FALSE)
 \arguments{
 \item{sentence}{Korean sentences. Try Korean words or sentences.}
 
-\item{type}{The Part-Of-Speech type you want to extract. noun(NNG, NNP, NP), verb(VV, VA, XR), NNG, NNP, NP, NNB, VV, VA, XR, VX. Default is noun.}
+\item{type}{The Part-Of-Speech type you want to extract. ALL(Every POS), noun(NNG, NNP, NP), verb(VV, VA, XR), NV(noun, verb), END(EC, EF), NNG, NNP, NP, NNB, VV, VA, XR, VX, EC, EF, EP. Default is noun.}
 
 \item{file}{Currently not realized. Default is FALSE.}
 }
@@ -21,5 +21,5 @@ Get analyzed Korean morph. The initRhino() must be executed once the first.
 }
 \examples{
 initRhino()
-getMorph("Input Korean sentences here.", "NNP")
+getMorph("Input Korean sentences here.", "noun")
 }
