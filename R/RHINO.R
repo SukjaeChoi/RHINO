@@ -15,23 +15,31 @@ initRhino <- function() {
 
 #' getMorph
 #'
-#' Get analyzed Korean morph. The initRhino() must be executed once the first.
+#' Get analyzed Korean morph.
 #' @param sentence Korean sentences. Try Korean words or sentences.
 #' @param type The Part-Of-Speech type you want to extract. ALL(Every POS), noun(NNG, NNP, NP), verb(VV, VA, XR), NV(noun, verb), END(EC, EF), NNG, NNP, NP, NNB, VV, VA, XR, VX, EC, EF, EP. Default is noun.
 #' @param file Currently not realized. Default is FALSE.
 #' @return vector of extracted morph result
 #' @export
 #' @examples
-#' initRhino()
-#' getMorph("Input Korean sentences here.", "noun")
+#' getMorph("Input Korean sentences here.", "NV")
 
 getMorph <- function(sentence, type="noun", file=FALSE)
 {
+  if(!exists("rhinoObj"))   # upload dictionary at the first
+    initRhino()
+
   tryCatch({
   sentence <- gsub("\r\n", " ", sentence)
   sentence <- gsub("\r", " ", sentence)
   sentence <- gsub("\n", " ", sentence)
   sentence <- gsub("^\\s+|\\s+$", "", sentence)
+
+  # replace exit character with other one
+  if(identical(sentence, "Q")){
+    sentence <- "Q."
+  }
+
 
   if(identical(sentence, "")||identical(sentence, " ")){     #newly input!!!
     #print("No characters")

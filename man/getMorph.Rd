@@ -17,9 +17,8 @@ getMorph(sentence, type = "noun", file = FALSE)
 vector of extracted morph result
 }
 \description{
-Get analyzed Korean morph. The initRhino() must be executed once the first.
+Get analyzed Korean morph.
 }
 \examples{
-initRhino()
-getMorph("Input Korean sentences here.", "noun")
+getMorph("Input Korean sentences here.", "NV")
 }
