@@ -75,5 +75,25 @@ getMorph <- function(sentence, type="noun", file=FALSE)
 }
 
 
+#' getKeywords
+#'
+#' Get keywords.
+#' @param data vector. Source data for keywords
+#' @param n integer. Maximum number of keywords. Default is 10
+#' @param length Minimum length of character of every keyword. Default is 1
+#' @param pos The Part-Of-Speech type you want to extract. Default is "noun"
+#' @return Vector of extracted keywords
+#' @export
+#' @examples
+#' getKeywords("Input Korean sentences here here here", n=3, length = 2, pos ="ALL")
+
+getKeywords <- function(data, n = 10, length = 1, pos = "noun") {
+  library(RHINO)
+
+  words.vec <- unlist(lapply(data, getMorph, pos))
+  words.vec.n <- words.vec[nchar(words.vec) >= length]
+
+  return(names(head(sort(table(words.vec.n), decreasing = T), n)))
+}
 
 
