@@ -17,7 +17,7 @@ initRhino <- function() {
 #'
 #' Get analyzed Korean morph.
 #' @param sentence Korean sentences. Try Korean words or sentences.
-#' @param type The Part-Of-Speech type you want to extract. ALL(Every POS), noun(NNG, NNP, NP), verb(VV, VA, XR), NV(noun, verb), END(EC, EF), NNG, NNP, NP, NNB, VV, VA, XR, VX, EC, EF, EP. Default is noun.
+#' @param type The Part-Of-Speech type you want to extract. ALL(Every POS), noun(NNG, NNP, NP), verb(VV, VA, XR), NV(noun, verb), NVI(noun, verb, IC), END(EC, EF), SIGN(SF, SO, SW, SS, SP,SE), and all every POS(NNG, NNP, NP, NNB, NR, VV, VA, VX, VCP, VCN, MM, MAG, MAJ, IC, JKS, JKC, JKG, JKO, JKB, JKV, JKQ, JX, JC, EP, EF, EC, ETN, ETM, XPN, XSN, XSV, XSA, XR, SF, SS, SP, SE, SO, SL, SH, NF, SW, NV, SN, NA). Default is noun.
 #' @param file Currently not realized. Default is FALSE.
 #' @return vector of extracted morph result
 #' @export

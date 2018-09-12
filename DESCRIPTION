@@ -5,7 +5,7 @@ Title: An Morphological Analyzer for Korean
 Author: Sukjae Choi
 Description: RHINO parses Korean words and sentences by morpheme and part-of-speech.
 SystemRequirements: Java (>= 1.8)
-Version: 2.5.9
+Version: 2.6.0
 Depends:
     R (>= 3.3.1), rJava (>= 0.9-8)
 Collate: 'onLoad.R' 'RHINO.R'
