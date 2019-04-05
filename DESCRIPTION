@@ -10,6 +10,6 @@ Depends: R (>= 3.3.1)
 Collate: 'onLoad.R' 'RHINO.R'
 Encoding: UTF-8
 LazyData: true
-Depends: 
- rJava (>= 0.9-8)
+Depends:
+    rJava (>= 0.9-8)
 RoxygenNote: 6.1.1
