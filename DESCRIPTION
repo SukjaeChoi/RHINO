@@ -1,6 +1,6 @@
 Package: RHINO
 Maintainer: Sukjae Choi <lingua72@gmail.com>
-License: GPL-3
+License: MIT
 Title: An Morphological Analyzer for Korean
 Author: Sukjae Choi
 Description: RHINO parses Korean words and sentences by morpheme and part-of-speech.
