@@ -3,3 +3,4 @@
 # Related blog: http://blog.naver.com/lingua/220844372930
 # Developer: Sukjae Choi <lingua72@gmail.com>
 # version 2.6.2
+# MIT license
