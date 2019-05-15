@@ -12222,7 +12222,6 @@ Kakao	NNP
 테구시갈파	NNP
 테러리스트	NNG
 테렌티에프	NNP
-테렐지강도	NNP
 테르티우스	NNP
 테리웨이트	NNP
 테살로니카	NNP
@@ -40687,7 +40686,6 @@ YTN	NNP
 계획관	NNG
 계획국	NNG
 계획당	NNP
-계획도	NNG
 계획량	NNG
 계획력	NNG
 계획법	NNG
@@ -46305,7 +46303,6 @@ YTN	NNP
 넘버원	NNG
 넘실대	VV
 넘어가	VV
-넘어서	VV
 넘어오	VV
 넘어지	VV
 넘어치	VV
@@ -60751,7 +60748,6 @@ YTN	NNP
 사소절	NNP
 사수대	NNG
 사순절	NNG
-사슴과	NNG
 사슴뿔	NNG
 사시미	NNG
 사시절	NNG
@@ -76291,7 +76287,6 @@ YTN	NNP
 일본관	NNG
 일본국	NNP
 일본군	NNG
-일본도	NNG
 일본력	NNG
 일본명	NNG
 일본발	NNG
@@ -83640,7 +83635,6 @@ YTN	NNP
 청홍황	NNP
 청화대	NNP
 청회색	NNG
-체계도	NNG
 체납금	NNG
 체납세	NNG
 체납액	NNG
@@ -86857,7 +86851,6 @@ YTN	NNP
 톡톡톡	MAG
 톡톡히	MAG
 톤할레	NNP
-톨강도	NNP
 톨레도	NNP
 톨레드	NNP
 톨레미	NNP
@@ -87024,7 +87017,6 @@ YTN	NNP
 통제위	NNG
 통제자	NNG
 통제책	NNG
-통제하	NNG
 통조림	NNG
 통조상	NNG
 통조지	NNG
@@ -89874,7 +89866,6 @@ YTN	NNP
 한가람	NNG
 한가우	NNG
 한가위	NNG
-한가지	NNG
 한가히	MAG
 한갓지	VA
 한강교	NNG
@@ -93181,8 +93172,6 @@ SK	NNP
 가감	NNG
 가강	XR
 가객	NNG
-가거	NNG
-가게	NNG
 가격	NNG
 가결	NNG
 가경	NNG
@@ -93287,8 +93276,6 @@ SK	NNP
 가설	NNG
 가섭	NNP
 가성	NNG
-가세	NNG
-가셰	NNP
 가소	NNG
 가속	NNG
 가솔	NNG
@@ -93304,7 +93291,6 @@ SK	NNP
 가악	NNG
 가압	NNG
 가액	NNG
-가야	NNP
 가약	NNG
 가양	NNP
 가엄	NNG
@@ -93539,7 +93525,6 @@ SK	NNP
 간원	NNG
 간음	NNG
 간의	NNG
-간인	NNG
 간작	NNG
 간장	NNG
 간재	NNP
@@ -93591,7 +93576,6 @@ SK	NNP
 갈돌	NNG
 갈등	NNG
 갈랍	NNG
-갈래	NNG
 갈렙	NNP
 갈로	NNP
 갈론	NNP
@@ -93839,13 +93823,11 @@ SK	NNP
 강단	NNG
 강담	NNG
 강당	NNG
-강도	NNG
 강독	NNG
 강돌	NNG
 강동	NNP
 강둑	NNG
 강등	NNG
-강란	NNG
 강력	XR
 강렬	XR
 강령	NNG
@@ -98283,7 +98265,6 @@ SK	NNP
 나사	NNG
 나산	NNP
 나상	NNG
-나서	VV
 나선	NNG
 나섭	VA
 나성	NNP
@@ -98596,7 +98577,6 @@ SK	NNP
 남시	NNP
 남신	NNG
 남실	NNG
-남아	NNG
 남악	NNP
 남안	NNG
 남억	NNP
@@ -99824,13 +99804,9 @@ SK	NNP
 다얀	NNP
 다양	NNG
 다어	NNG
-다언	NNG
 다역	NNG
 다엽	NNG
 다예	NNG
-다우	NNP
-다운	NNG
-다울	NNP
 다원	NNG
 다윈	NNP
 다윗	NNP
@@ -101174,7 +101150,6 @@ SK	NNP
 동단	NNG
 동답	NNG
 동당	NNG
-동대	NNP
 동덕	NNP
 동도	NNG
 동독	NNP
@@ -101229,7 +101204,6 @@ SK	NNP
 동사	NNG
 동산	NNG
 동삼	NNP
-동상	NNG
 동색	NNG
 동생	NNG
 동서	NNG
@@ -105124,7 +105098,6 @@ SK	NNP
 믿음	NNG
 밀감	NNG
 밀개	NNG
-밀고	NNG
 밀곰	NNP
 밀교	NNG
 밀규	NNG
@@ -105560,7 +105533,6 @@ SK	NNP
 발레	NNG
 발렘	NNP
 발령	NNG
-발로	NNG
 발론	NNG
 발롱	NNP
 발르	VV
@@ -105863,7 +105835,6 @@ SK	NNP
 밭치	VV
 밭톱	NNG
 밭틀	NNG
-배가	NNG
 배갈	NNG
 배강	NNG
 배격	NNG
@@ -106180,7 +106151,6 @@ SK	NNP
 버나	NNG
 버너	NNG
 버년	NNP
-버니	NNP
 버닝	NNP
 버덩	NNG
 버둥	XR
@@ -106821,7 +106791,6 @@ SK	NNP
 병용	NNG
 병우	NNP
 병원	NNG
-병인	NNG
 병자	NNG
 병작	NNG
 병장	NNG
@@ -108144,7 +108113,6 @@ SK	NNP
 비봉	NNP
 비부	NNG
 비분	NNG
-비빈	NNG
 비빔	NNG
 비사	NNG
 비산	NNG
@@ -108187,7 +108155,6 @@ SK	NNP
 비욜	NNP
 비용	NNG
 비우	VV
-비운	NNG
 비원	NNG
 비월	NNG
 비위	NNG
@@ -108601,7 +108568,6 @@ SK	NNP
 사견	NNG
 사경	NNG
 사계	NNG
-사고	NNG
 사곡	NNG
 사골	NNG
 사공	NNG
@@ -108789,7 +108755,6 @@ SK	NNP
 사준	NNG
 사중	NNG
 사증	NNG
-사지	NNG
 사직	NNG
 사진	NNG
 사질	NNG
@@ -111146,8 +111111,6 @@ SK	NNP
 손녀	NNG
 손님	NNP
 손대	VV
-손도	NNG
-손들	VV
 손등	NNG
 손때	NNG
 손맛	NNG
@@ -111471,7 +111434,6 @@ SK	NNP
 수단	NNG
 수달	NNG
 수덕	NNP
-수도	NNG
 수동	NNG
 수두	NNG
 수득	NNG
@@ -112514,7 +112476,6 @@ SK	NNP
 식재	NNG
 식전	NNG
 식중	NNG
-식지	NNG
 식체	NNG
 식초	NNG
 식충	NNG
@@ -112776,8 +112737,6 @@ SK	NNP
 실소	NNG
 실속	NNG
 실솔	NNG
-실수	NNG
-실슈	NNG
 실습	NNG
 실시	NNG
 실신	NNG
@@ -113279,10 +113238,8 @@ SK	NNP
 아낙	NNG
 아난	NNP
 아날	NNP
-아남	NNP
 아낫	NNP
 아내	NNG
-아냐	IC
 아너	NNG
 아넷	NNP
 아녀	IC
@@ -113529,8 +113486,6 @@ SK	NNP
 악형	NNG
 악화	NNG
 악흥	NNG
-안감	NNG
-안강	NNP
 안개	NNG
 안거	NNG
 안검	NNG
@@ -113556,9 +113511,6 @@ SK	NNP
 안댁	NNG
 안돈	NNG
 안동	NNP
-안되	VA
-안두	NNG
-안디	NNG
 안따	NNG
 안뜰	NNG
 안뜸	NNG
@@ -115831,7 +115783,6 @@ SK	NNP
 예우	NNG
 예운	NNG
 예음	NNP
-예의	NNG
 예이	IC
 예인	NNG
 예일	NNP
@@ -115915,7 +115866,6 @@ SK	NNP
 오답	NNG
 오더	NNG
 오덕	NNG
-오데	NP
 오덴	NNP
 오뎅	NNG
 오도	NNG
@@ -115924,7 +115874,6 @@ SK	NNP
 오두	NNP
 오든	NNP
 오등	NNG
-오디	NNG
 오딜	NNP
 오똑	MAG
 오뚝	MAG
@@ -116033,9 +115982,6 @@ SK	NNP
 오접	NNG
 오젓	NNG
 오정	NNG
-오제	NNG
-오젝	NNG
-오조	NNG
 오존	NNG
 오죽	MAG
 오줌	NNG
@@ -116216,7 +116162,6 @@ SK	NNP
 올곧	VA
 올깃	NNG
 올드	NNG
-올래	NNG
 올록	MAG
 올르	VV
 올리	VV
@@ -118997,7 +118942,6 @@ SK	NNP
 인실	NNG
 인심	NNG
 인애	NNG
-인양	NNG
 인어	NNG
 인연	NNG
 인왕	NNG
@@ -119489,7 +119433,6 @@ SK	NNP
 자꾸	MAG
 자끄	NNP
 자나	VV
-자네	NP
 자녀	NNG
 자년	NNG
 자농	NNG
@@ -120440,7 +120383,6 @@ SK	NNP
 적기	NNG
 적대	NNG
 적덕	NNG
-적도	NNG
 적돌	NNP
 적동	NNG
 적량	NNG
@@ -120661,7 +120603,6 @@ SK	NNP
 전위	NNG
 전유	NNG
 전율	NNG
-전이	NNG
 전일	NNG
 전임	NNG
 전입	NNG
@@ -120715,7 +120656,6 @@ SK	NNP
 전표	NNG
 전품	NNG
 전학	NNG
-전함	NNG
 전항	NNG
 전핵	NNG
 전향	NNG
@@ -120749,7 +120689,6 @@ SK	NNP
 절기	NNG
 절노	MAG
 절단	NNG
-절도	NNG
 절딴	NNG
 절떡	NNG
 절략	NNG
@@ -122141,7 +122080,6 @@ SK	NNP
 죽장	NNG
 죽전	NNP
 죽죽	MAG
-죽지	NNG
 죽창	NNG
 죽채	NNG
 죽책	NNG
@@ -122644,7 +122582,6 @@ SK	NNP
 지육	NNG
 지윤	NNP
 지율	NNP
-지은	NNP
 지음	NNG
 지의	NNG
 지익	MAG
@@ -123054,7 +122991,6 @@ SK	NNP
 집기	NNG
 집념	NNG
 집단	NNG
-집도	NNG
 집례	NNG
 집맥	NNG
 집무	NNG
@@ -126179,7 +126115,6 @@ SK	NNP
 타구	NNG
 타국	NNG
 타군	NNG
-타기	NNG
 타깃	NNG
 타나	VV
 타내	VV
@@ -129462,7 +129397,6 @@ SK	NNP
 해녀	NNG
 해년	NNG
 해단	NNP
-해달	NNG
 해답	NNG
 해당	NNG
 해대	VV
@@ -131498,7 +131432,6 @@ SK	NNP
 후위	NNG
 후유	IC
 후음	IC
-후의	NNG
 후이	IC
 후인	NNG
 후일	NNG
@@ -132544,7 +132477,6 @@ SK	NNP
 짠	MAG
 짧	VA
 짬	NNG
-째	VV
 짹	MAG
 쨈	NNG
 쨍	MAG
@@ -132632,7 +132564,6 @@ SK	NNP
 킵	VV
 킹	NNG
 ㅌ	NNG
-탈	NNG
 탐	NNG
 탑	NNG
 탓	NNG
