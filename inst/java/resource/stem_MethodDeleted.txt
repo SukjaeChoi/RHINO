@@ -2498,8 +2498,13 @@ samsung	NNP
 휘국공주희신위	NNG
 휴먼라이츠워치	NNP
 흰배윗수염박쥐	NNG
-히마리아야시다	NNP
 히말라야삼나무	NNG
+1차산업혁명	NNP
+2차산업혁명	NNP
+3차산업혁명	NNP
+4차산업혁명	NNP
+5차산업혁명	NNP
+6차산업혁명	NNP
 rights	NNG
 sisley	NNP
 가꾸레루모노	NNG
@@ -18339,6 +18344,7 @@ TV경인	NNP
 동부증권	NNP
 동부지원	NNP
 동부화재	NNP
+동북3성	NNP
 동북공정	NNG
 동북교회	NNP
 동북반구	NNG
@@ -33298,7 +33304,6 @@ TV경인	NNP
 착각착각	MAG
 착호갑사	NNG
 찬드푸르	NNP
-찬량초이	NNP
 찬바람식	NNG
 찬반의견	NNG
 찬성론자	NNG
@@ -93161,6 +93166,13 @@ YTN	NNP
 힙합족	NNG
 힛힛힛	MAG
 힝클리	NNP
+1G	NNP
+2G	NNP
+3G	NNP
+4G	NNP
+5G	NNP
+6G	NNP
+3M	NNP
 c발	IC
 FC	SL
 LG	NNP
