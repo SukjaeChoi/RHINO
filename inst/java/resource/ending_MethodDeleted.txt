@@ -11245,6 +11245,7 @@
 나가려면	나가/VX + 려면/EC	SEPA
 나가리라	나가/VX + 리라/EC	SEPA
 나가면서	나가/VX + 면서/EC	SEPA
+나가사와	나가/VV + 사/VV + 아/EC + 오/VV + 아/EF	SEPA
 나가신다	나가/VX + 시/EP + ㄴ다/EF	SEPA
 나가야만	나가/VX + 야/EC + 만/JX	SEPA
 나가자는	나가/VX + 자는/ETM	SEPA
@@ -11297,6 +11298,7 @@
 나뉜다고	나뉘/VV + ㄴ다고/EC	SEPA
 나뉜다는	나뉘/VV + ㄴ다는/ETM	SEPA
 나뉩니다	나뉘/VV + ㅂ니다/EF	SEPA
+나더군요	나/VV + 더군요/EF	SEPA
 나돈다고	나돌/VV + ㄴ다고/EC	SEPA
 나돈다는	나돌/VV + ㄴ다는/ETM	SEPA
 나뒹군다	나뒹굴/VV + ㄴ다/EC	SEPA
@@ -19382,7 +19384,9 @@
 어볼까요	어/EC + 보/VX + ㄹ까요/EF	SEPA
 어볼래요	어/EC + 보/VX + ㄹ래요/EF	SEPA
 어볼려구	어/EC + 보/VX + ㄹ려구/EC	SEPA
-어볼만한	어/EC + 보/VX + ㄹ/ETM + 만/NNB + 하/XSA + ㄴ/ETM	SEPA
+어볼만한	어/EC + 볼만하/VA + ㄴ/ETM	SEPA
+어볼만할	어/EC + 볼만하/VA + ㄹ/ETM	SEPA
+어볼만했	어/EC + 볼만하/VA + 었/EP	SEPA
 어봄직한	어/EC + 보/VX + ㅁ직/EC + 하/XSA + ㄴ/ETM	SEPA
 어봅시다	어/EC + 보/VX + ㅂ시다/EF	SEPA
 어봐라이	어/EC + 보/VX + 아라이/EF	SEPA
@@ -22101,6 +22105,7 @@
 재그러운	재그럽/VA + ㄴ/ETM	SEPA
 재밌었음	재미있/VA + 었/EP + 음/ETN	SEPA
 재빨라서	재빠르/VA + 어서/EC	SEPA
+재밌었나	재미있/VA + 었/EP + 나/EF	SEPA
 쟁이같은	쟁이/XSN + 같/VA + 은/ETM	SEPA
 쟁이거나	쟁이/XSN + 이/VCP + 거나/EC	SEPA
 쟁이구나	쟁이/XSN + 이/VCP + 구나/EF	SEPA
@@ -32338,8 +32343,9 @@
 볼래요	보/VX + ㄹ래요/EF	SEPA
 볼려고	보/VV + ㄹ려고/EC	SEPA
 볼려구	보/VX + ㄹ려구/EC	SEPA
-볼만한	보/VV + ㄹ/ETM + 만/NNB + 하/XSA + ㄴ/ETM	SEPA
-볼만할	보/VV + ㄹ/ETM + 만/NNB + 하/XSA + ㄹ/ETM	SEPA
+볼만한	볼만하/VA + ㄴ/ETM	SEPA
+볼만할	볼만하/VA + ㄹ/ETM	SEPA
+볼만했	볼만하/VA + 었/EP	SEPA
 볼세라	보/VV + ㄹ세라/EC	SEPA
 볼수록	보/VV + ㄹ수록/EC	SEPA
 볼진대	보/VV + ㄹ진대/EC	SEPA
@@ -32977,6 +32983,7 @@
 사람들	사람/NNG + 들/XSN	SEPA
 사람이	사람/NNG + 이/JKS	SEPA
 사랑을	사랑/NNG + 을/JKO	SEPA
+사랑해	사랑하/VV + 아/EC	SEPA
 사려문	사려물/VV + ㄴ/ETM	SEPA
 사려야	사리/VV + 어야/EC	SEPA
 사뢴다	사뢰/VV + ㄴ다/EC	SEPA
@@ -34008,6 +34015,9 @@
 신다면	시/EP + ㄴ다면/EC	SEPA
 신대도	시/EP + ㄴ대도/EC	SEPA
 신들린	신들리/VV + ㄴ/ETM	SEPA
+신선한	신선하/VA + ㄴ/ETM	SEPA
+신선할	신선하/VA + ㄹ/ETM	SEPA
+신선했	신선하/VA + 았/EP	SEPA
 신셀세	신세/NNG + 이/VCP + ㄹ세/EF	SEPA
 신지요	시/EP + ㄴ지요/EF	SEPA
 신하는	신하/NNG + 는/JX	SEPA
@@ -38483,6 +38493,7 @@
 재미난	재미나/VV + ㄴ/ETM	SEPA
 재민가	재미/NNG + 이/VCP + ㄴ가/EF	SEPA
 재밀세	재미/NNG + 이/VCP + ㄹ세/EF	SEPA
+재밌었	재미있/VA + 었/EP	SEPA
 재바른	재바르/VA + ㄴ/ETM	SEPA
 재빠른	재빠르/VA + ㄴ/ETM	SEPA
 재우쳐	재우치/VV + 어/EC	SEPA
@@ -41742,6 +41753,7 @@
 가놈	가/XSN + 놈/NNB	SEPA
 가눌	가누/VV + ㄹ/ETM	SEPA
 가눔	가/XSN + 눔/NNB	SEPA
+가는	가/VV + 는/ETM	SEPA
 가니	가/VX + 니/EC	SEPA
 가다	가/XSN + 이/VCP + 다/EC	SEPA
 가던	가/VX + 던/ETM	SEPA

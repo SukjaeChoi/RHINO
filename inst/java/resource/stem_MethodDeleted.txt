@@ -5262,6 +5262,7 @@ sisley	NNP
 포항종합제철	NNP
 폴리네시아인	NNG
 폴리데우케스	NNP
+폴리스스토리	NNP
 폴리에스테르	NNG
 폴리염화비닐	NNG
 폴리유레스탄	NNG
@@ -5744,6 +5745,11 @@ Kakao	NNP
 가자마쓰리	NNP
 가정과학대	NNG
 가정의학회	NNG
+가정파괴범	NNG
+가조나들목	NNP
+가조연륙교	NNP
+가족공동체	NNG
+가족드라마	NNG
 가족연령회	NNP
 가치중립설	NNG
 가톨릭교도	NNG
@@ -5869,6 +5875,7 @@ Kakao	NNP
 게르하르트	NNP
 게리그레이	NNP
 게리맨더링	NNG
+게리올드만	NNP
 게쉬티난나	NNP
 게으름뱅이	NNG
 게을러빠지	VA
@@ -7230,8 +7237,6 @@ Kakao	NNP
 디즈니랜드	NNP
 디즈니왕국	NNP
 디즈레일리	NNP
-디지털네가	NNP
-디지털웨이	NNP
 디지토닷컴	NNP
 디카프리오	NNP
 디튀람보스	NNP
@@ -13587,8 +13592,14 @@ TV경인	NNP
 가족노동	NNG
 가족사진	NNG
 가족생활	NNG
+가족수당	NNG
+가족영화	NNG
+가족제도	NNG
 가족주의	NNG
+가족해체	NNG
+가족호텔	NNG
 가족회의	NNG
+가좌시장	NNP
 가죽가죽	MAG
 가죽나무	NNG
 가죽점퍼	NNG
@@ -13824,8 +13835,8 @@ TV경인	NNP
 강보합세	NNG
 강북구청	NNP
 강서구청	NNP
-강수만이	NNP
 강수욕장	NNG
+강시영화	NNG
 강아지풀	NNG
 강알칼리	NNG
 강약부동	NNG
@@ -14073,6 +14084,7 @@ TV경인	NNP
 검부럭지	NNG
 검비검비	MAG
 검선일여	NNG
+검우강호	NNP
 검은모루	NNP
 검은자위	NNG
 검정고시	NNG
@@ -16884,7 +16896,6 @@ TV경인	NNP
 노르웨이	NNP
 노른자위	NNG
 노릇노릇	MAG
-노리개쯤	NNG
 노리갯감	NNG
 노리께께	NNG
 노리끼리	XR
@@ -17305,7 +17316,6 @@ TV경인	NNP
 다운로드	NNG
 다운블로	NNG
 다운타운	NNG
-다원건설	NNP
 다원주의	NNG
 다음다음	NNG
 다음쇼핑	NNP
@@ -19737,6 +19747,7 @@ TV경인	NNP
 마르쿠제	NNP
 마르크스	NNP
 마르크화	NNG
+마르퀴스	NNP
 마르텐스	NNP
 마르텔리	NNP
 마르티나	NNP
@@ -19802,6 +19813,8 @@ TV경인	NNP
 마셔레이	NNP
 마셜필드	NNP
 마수걸이	NNG
+마술경기	NNG
+마술영화	NNG
 마스카라	NNG
 마스컨키	NNP
 마스코브	NNP
@@ -24123,6 +24136,7 @@ TV경인	NNP
 삼일심상	NNG
 삼일우귀	NNG
 삼일운동	NNP
+삼자범퇴	NNG
 삼자연시	NNG
 삼장법사	NNP
 삼저고리	NNG
@@ -24453,6 +24467,7 @@ TV경인	NNP
 샤마리아	NNP
 샤머니즘	NNG
 샤바라크	NNP
+샤방샤방	MAG
 샤브롤식	NNG
 샤브리에	NNP
 샤브샤브	NNG
@@ -28328,6 +28343,7 @@ TV경인	NNP
 에베소서	NNP
 에베소인	NNG
 에벤에셀	NNP
+에볼루션	NNG
 에브라힘	NNP
 에브리싱	NNG
 에브베일	NNP
@@ -29940,6 +29956,7 @@ TV경인	NNP
 웅포국교	NNP
 웅포중학	NNP
 워리어스	NNP
+워쇼스키	NNP
 워스워스	NNP
 워싱턴대	NNP
 워싱턴발	NNG
@@ -30847,8 +30864,6 @@ TV경인	NNP
 이화화랑	NNP
 이희수맥	NNG
 이히히히	IC
-익비나두	NNP
-익비니두	NNP
 익사이트	NNG
 익사이팅	NNG
 익산군청	NNP
@@ -38112,20 +38127,32 @@ TV경인	NNP
 힘껏힘껏	MAG
 힘출판사	NNP
 힝힝거리	VV
+^^;;	IC
+007	NNP
 4두품	NNG
 6두품	NNG
 7언시	NNG
 AK몰	NNP
+ATM	NNG
+CRM	NNG
+CGV	NNP
 EBS	NNP
+EXK	NNP
 GS샵	NNP
 KBO	NNP
 KBS	NNP
 MBC	NNP
 MBN	NNP
-new	NNG
+NEW	NNG
+OTP	NNG
+POS	NNP
+PC방	NNG
 SBS	NNP
+SMS	NNG
+SNS	NNG
 URL	NNG
 USB	NNG
+X레이	NNG
 YTN	NNP
 가가례	NNG
 가가린	NNP
@@ -38916,6 +38943,7 @@ YTN	NNP
 감상실	NNG
 감상안	NNG
 감상자	NNG
+감상평	NNG
 감상학	NNG
 감상회	NNG
 감성대	NNG
@@ -39347,6 +39375,7 @@ YTN	NNP
 개복청	NNG
 개봉관	NNG
 개봉동	NNP
+개봉일	NNG
 개봉작	NNG
 개불알	NNG
 개비누	NNG
@@ -40720,6 +40749,7 @@ YTN	NNP
 고갸르	NNG
 고건물	NNG
 고검장	NNG
+고고싱	NNG
 고고학	NNG
 고고히	MAG
 고골리	NNP
@@ -41830,6 +41860,7 @@ YTN	NNP
 과학지	NNG
 과학화	NNG
 과학회	NNG
+곽지균	NNP
 곽지리	NNP
 곽한구	NNP
 관개수	NNG
@@ -43776,6 +43807,8 @@ YTN	NNP
 글래머	NNG
 글래서	NNP
 글래스	NNG
+글램록	NNG
+글램락	NNG
 글러벌	NNG
 글러브	NNG
 글레머	NNG
@@ -43786,9 +43819,7 @@ YTN	NNP
 글로브	NNG
 글로우	NNP
 글로컬	NNG
-글로콤	NNP
 글루건	NNG
-글루온	NNP
 글루칸	NNG
 글루코	NNG
 글루크	NNP
@@ -44683,6 +44714,7 @@ YTN	NNP
 길흉사	NNG
 김개똥	NNP
 김광석	NNP
+김남길	NNP
 김구이	NNG
 김대건	NNP
 김대중	NNP
@@ -44705,6 +44737,7 @@ YTN	NNP
 김매기	NNG
 김메기	NNG
 김명곤	NNP
+김명민	NNP
 김명현	NNP
 김무성	NNP
 김문수	NNP
@@ -44780,6 +44813,7 @@ YTN	NNP
 김포시	NNP
 김포현	NNP
 김풍헌	NNP
+김하늘	NNP
 김해군	NNP
 김해시	NNP
 김홍도	NNP
@@ -44936,7 +44970,6 @@ YTN	NNP
 깽깽발	NNG
 깽깽이	NNG
 꺄르륵	MAG
-꺅도요	NNG
 꺼구로	MAG
 꺼꾸로	MAG
 꺼꾸리	NNG
@@ -46266,6 +46299,7 @@ YTN	NNP
 너푼못	NNG
 너풀대	VV
 너필드	NNP
+너훈아	NNP
 넉가래	NNG
 넉넉이	MAG
 넉넉잡	VV
@@ -46445,6 +46479,7 @@ YTN	NNP
 노들강	NNP
 노들목	NNG
 노땡큐	NNG
+노라노	NNP
 노란빛	NNG
 노란색	NNG
 노랑내	NNG
@@ -50258,6 +50293,7 @@ YTN	NNP
 드나들	VV
 드날리	VV
 드넓히	VV
+드니로	NNP
 드뇌브	NNP
 드니즈	NNP
 드디어	MAG
@@ -53259,6 +53295,7 @@ YTN	NNP
 메주콩	NNG
 메추리	NNG
 메치기	NNG
+메카닉	NNG
 메카시	NNP
 메카톤	NNG
 메켈러	NNP
@@ -54021,6 +54058,7 @@ YTN	NNP
 몰인격	NNG
 몰인정	NNG
 몰입감	NNG
+몰입도	NNG
 몰잇군	NNG
 몰장소	NNG
 몰주체	NNG
@@ -54258,7 +54296,6 @@ YTN	NNP
 무릿매	NNG
 무마책	NNG
 무명베	NNG
-무명색	XR
 무명실	NNG
 무명심	NNG
 무명씨	NNG
@@ -55804,6 +55841,7 @@ YTN	NNP
 박탈감	NNG
 박태환	NNP
 박팽년	NNP
+박평식	NNP
 박하유	NNG
 박학기	NNP
 박해기	NNG
@@ -58346,6 +58384,7 @@ YTN	NNP
 볼링공	NNG
 볼링장	NNG
 볼링핀	NNG
+볼만하	VA
 볼쇼이	NNP
 볼연지	NNG
 볼우물	NNG
@@ -61024,7 +61063,6 @@ YTN	NNP
 사토루	NNP
 사토시	NNP
 사토우	NNP
-사토이	NNP
 사토장	NNG
 사토지	NNG
 사퇴서	NNG
@@ -65748,6 +65786,7 @@ YTN	NNP
 숯등걸	NNG
 숲속길	NNG
 숲정이	NNP
+슈퍼콘	NNP
 쉐니에	NNP
 쉐도우	NNG
 쉐라톤	NNP
@@ -67034,6 +67073,7 @@ YTN	NNP
 신성관	NNG
 신성대	NNP
 신성수	NNG
+신세경	NNP
 신세계	NNG
 신세기	NNG
 신세대	NNG
@@ -74503,6 +74543,7 @@ YTN	NNP
 유명인	NNG
 유명자	NNP
 유명짜	NNG
+유명하	VA
 유명환	NNP
 유모비	NNG
 유모어	NNG
@@ -74992,7 +75033,6 @@ YTN	NNP
 은여우	NNG
 은연중	NNG
 은연히	MAG
-은영연	NNG
 은유법	NNG
 은은히	MAG
 은입사	NNG
@@ -76287,6 +76327,8 @@ YTN	NNP
 일반팬	NNG
 일반포	NNG
 일백만	NR
+일벌레	NNG
+일베충	NNP
 일변도	NNG
 일보사	NNG
 일본관	NNG
@@ -79586,6 +79628,7 @@ YTN	NNP
 조기회	NNG
 조깃배	NNG
 조깅복	NNG
+조니뎁	NNP
 조나단	NNP
 조나라	NNP
 조나탄	NNP
@@ -82075,6 +82118,7 @@ YTN	NNP
 질러지	VV
 질레스	NNP
 질레트	NNP
+질렌할	NNP
 질력나	VV
 질료인	NNG
 질리언	NNP
@@ -86208,12 +86252,13 @@ YTN	NNP
 타차종	NNG
 타카시	NNP
 타코마	NNG
+타쿠야	NNP
 타타르	NNP
 타타타	NNG
 타타탁	MAG
 타탄형	NNG
 타탕카	NNP
-타태아	NNP
+타태아	NNG
 타행환	NNG
 타향산	NNP
 타향인	NNG
@@ -95250,7 +95295,6 @@ SK	NNP
 고천	NNG
 고철	NNG
 고체	NNG
-고쳐	VV
 고초	NNG
 고촌	NNG
 고추	NNG
@@ -97020,7 +97064,6 @@ SK	NNP
 그딴	MM
 그때	NNG
 그뜩	MAG
-그라	VV
 그람	NNP
 그랑	NNG
 그래	IC
@@ -97036,14 +97079,13 @@ SK	NNP
 그뤼	NNG
 그류	IC
 그릉	VA
-그린	NNG
 그림	NNG
 그마	MAG
 그맘	NNG
 그물	NNG
 그뭄	NNG
 그믐	NNG
-그분	NNP
+그분	NP
 그새	NNG
 그셤	NNP
 그스	NNP
@@ -97064,7 +97106,6 @@ SK	NNP
 그쪽	NP
 그쯤	NNG
 그참	IC
-그카	VV
 그편	NP
 그해	NNG
 극간	NNG
@@ -97201,6 +97242,7 @@ SK	NNP
 글감	NNG
 글강	NNG
 글귀	NNG
+글구	MAJ
 글글	MAG
 글랜	NNP
 글렌	NNP
@@ -98242,7 +98284,6 @@ SK	NNP
 나당	NNP
 나대	VV
 나돌	VV
-나두	VV
 나들	VV
 나딘	NNP
 나라	NNG
@@ -98331,8 +98372,6 @@ SK	NNP
 나포	NNG
 나프	NNP
 나한	NNG
-나허	VV
-나화	NNG
 나흘	NNG
 나히	NNG
 낙과	NNG
@@ -98519,7 +98558,6 @@ SK	NNP
 날탕	NNG
 날틀	NNG
 날품	NNG
-남가	NNG
 남강	NNP
 남경	NNP
 남계	NNG
@@ -98602,11 +98640,10 @@ SK	NNP
 남자	NNG
 남작	NNG
 남장	NNG
-남전	NNP
 남정	NNG
 남조	NNP
 남종	NNG
-남주	NNP
+남주	NNG
 남중	NNG
 남지	NNP
 남직	NNG
@@ -98709,7 +98746,6 @@ SK	NNP
 낭주	NNG
 낭중	NNG
 낭창	NNG
-낭청	NNG
 낭트	NNP
 낭패	NNG
 낭포	NNG
@@ -98881,7 +98917,6 @@ SK	NNP
 내포	NNG
 내피	NNG
 내핍	NNG
-내하	NNG
 내한	NNG
 내함	NNG
 내항	NNG
@@ -99776,7 +99811,6 @@ SK	NNP
 다림	NNG
 다마	NNG
 다만	MAG
-다말	NNP
 다맛	MAG
 다망	NNG
 다맥	NNG
@@ -99819,6 +99853,7 @@ SK	NNP
 다역	NNG
 다엽	NNG
 다예	NNG
+다운	NNG
 다원	NNG
 다윈	NNP
 다윗	NNP
@@ -102559,6 +102594,7 @@ SK	NNP
 료이	NNP
 료칸	NNG
 료코	NNP
+료타	NNP
 룡범	NNP
 룡성	NNP
 룡준	NNP
@@ -104821,6 +104857,7 @@ SK	NNP
 뭉항	NNP
 뭍길	NNG
 뭍히	VV
+뮤비	NNG
 뭐야	IC
 뭐얏	IC
 뭐어	IC
@@ -105591,7 +105628,6 @@ SK	NNP
 발양	NNG
 발언	NNG
 발열	NNG
-발우	NNG
 발원	NNG
 발위	NNG
 발육	NNG
@@ -108610,7 +108646,6 @@ SK	NNP
 사당	NNG
 사대	NNG
 사덕	NNG
-사도	NNG
 사독	NNG
 사돈	NNG
 사동	NNG
@@ -108802,6 +108837,7 @@ SK	NNP
 사통	NNG
 사퇴	NNG
 사투	NNG
+사토	NNP
 사특	XR
 사티	NNP
 사틴	NNG
@@ -109448,10 +109484,10 @@ SK	NNP
 새달	NNG
 새대	NNG
 새댁	NNG
+새드	VA
 새되	VA
 새들	NNG
 새똥	NNG
-새러	NNP
 새로	MAG
 새롬	NNP
 새롭	VA
@@ -111084,7 +111120,6 @@ SK	NNP
 속요	NNG
 속유	NNG
 속음	NNG
-속의	NNG
 속이	VV
 속인	NNG
 속임	NNG
@@ -113333,6 +113368,7 @@ SK	NNP
 아쉬	NNG
 아쉽	VA
 아슴	NNG
+아쒸	IC
 아아	IC
 아안	NNG
 아앉	VV
@@ -113803,16 +113839,12 @@ SK	NNP
 앙급	NNG
 앙꼬	NNG
 앙느	NNP
-앙당	XR
 앙등	NNG
 앙련	NNG
 앙리	NNP
 앙모	NNG
 앙살	NNG
 앙상	XR
-앙서	NNG
-앙성	NNP
-앙소	NNP
 앙숙	NNG
 앙식	NNG
 앙심	NNG
@@ -115024,7 +115056,6 @@ SK	NNP
 여인	NNG
 여자	NNG
 여장	NNG
-여저	NNG
 여정	NNG
 여제	NNG
 여종	NNG
@@ -115101,8 +115132,6 @@ SK	NNP
 역말	NNG
 역모	NNG
 역무	NNG
-역물	NNG
-역민	NNG
 역방	NNG
 역법	NNG
 역병	NNG
@@ -115777,6 +115806,7 @@ SK	NNP
 예수	NNP
 예순	NR
 예술	NNG
+예슬	NNP
 예스	NNP
 예습	NNG
 예시	NNG
@@ -115817,8 +115847,6 @@ SK	NNP
 예치	NNG
 예카	NNP
 예탁	NNG
-예토	NNG
-예파	NNG
 예펜	NNG
 예편	NNG
 예풍	NNG
@@ -115917,8 +115945,6 @@ SK	NNP
 오멘	NNP
 오명	NNG
 오묘	XR
-오무	VV
-오문	NNG
 오물	NNG
 오미	NNG
 오밀	NNG
@@ -116736,6 +116762,7 @@ SK	NNP
 요체	NNG
 요추	NNG
 요충	NNG
+요코	NNP
 요크	NNP
 요태	NNG
 요통	NNG
@@ -118255,8 +118282,6 @@ SK	NNP
 은암	NNP
 은애	NNG
 은어	NNG
-은연	XR
-은염	NNG
 은원	NNG
 은유	NNG
 은은	XR
@@ -118620,7 +118645,6 @@ SK	NNP
 이그	IC
 이극	NNP
 이글	NNG
-이까	NNG
 이깐	MM
 이깟	MM
 이꼴	NNG
@@ -118864,8 +118888,6 @@ SK	NNP
 익종	NNP
 익주	NNP
 익충	NNG
-익헌	NNG
-익호	NNP
 익효	NNG
 인가	NNG
 인각	NNG
@@ -119085,6 +119107,7 @@ SK	NNP
 일벌	NNG
 일변	NNG
 일별	NNG
+일베	NNP
 일병	NNG
 일보	NNG
 일본	NNP
@@ -132081,6 +132104,7 @@ SK	NNP
 깐	NNG
 깡	NNG
 깽	MAG
+꺄	IC
 꺅	MAG
 꺽	MAG
 꺾	VV
