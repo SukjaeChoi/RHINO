@@ -35086,6 +35086,7 @@
 았대서	았/EP + 대서/EC	SEPA
 았대야	았/EP + 대야/EC	SEPA
 았대요	았/EP + 대요/EF	SEPA
+았데요	았/EP + 대요/EF	SEPA
 았대지	았/EP + 대지/EC	SEPA
 았더군	았/EP + 더군/EF	SEPA
 았더냐	았/EP + 더냐/EF	SEPA

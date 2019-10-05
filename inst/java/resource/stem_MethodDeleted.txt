@@ -3255,6 +3255,7 @@ sisley	NNP
 루이지애나주	NNP
 루크레티우스	NNP
 루흐터한트사	NNP
+룸펠슈틸츠헨	NNP
 리기다소나무	NNG
 리듬앤블루스	NNG
 리밸류에이션	NNG
@@ -4972,6 +4973,7 @@ sisley	NNP
 카타스트로피	NNG
 카톨릭대학교	NNP
 카톨릭출판사	NNP
+카트리넬리에	NNP
 카프리치오소	NNG
 카피톨여행사	NNP
 칸스오니에레	NNP
@@ -7241,6 +7243,8 @@ Kakao	NNP
 디카프리오	NNP
 디튀람보스	NNP
 디트로이트	NNP
+디트마르시	NNP
+디트마르쉬	NNP
 디프로스트	NNG
 디프테리아	NNG
 디플레이션	NNG
@@ -11864,6 +11868,7 @@ Kakao	NNP
 카타르시스	NNG
 카타소노프	NNP
 카탈로니아	NNP
+카터리스헨	NNP
 카테나치오	NNP
 카테콜아민	NNG
 카톨릭교도	NNG
@@ -12062,6 +12067,7 @@ Kakao	NNP
 퀴안얀완후	NNG
 퀸스갤러리	NNP
 퀸즐랜드주	NNP
+크노이스트	NNP
 크노테이션	NNG
 크라스테바	NNP
 크라운전자	NNP
@@ -12562,6 +12568,7 @@ Kakao	NNP
 포스토모던	NNG
 포스트극장	NNP
 포스트모던	NNG
+포어포메른	NNP
 포어아벤트	NNG
 포에토피아	NNG
 포이니쿠스	NNG
@@ -19481,6 +19488,7 @@ TV경인	NNP
 루슈코프	NNP
 루스벨트	NNP
 루스타임	NNG
+루스티히	NNP
 루슬리스	NNG
 루시어스	NNP
 루시페린	NNG
@@ -28233,6 +28241,7 @@ TV경인	NNP
 엄숙주의	NNG
 엄정중립	NNG
 엄지기둥	NNG
+엄지둥이	NNP
 엄지머리	NNG
 엄지발톱	NNG
 엄지손톱	NNG
@@ -35712,6 +35721,7 @@ TV경인	NNP
 페라가모	NNP
 페라인잘	NNP
 페러독스	NNG
+페레난트	NNP
 페레이라	NNP
 페로니즘	NNG
 페루기나	NNP
@@ -36044,6 +36054,7 @@ TV경인	NNP
 푸하푸하	MAG
 푸하하하	MAG
 푹신푹신	MAG
+푼데포겔	NNP
 푼살마긴	NNP
 풀려나오	VV
 풀루토늄	NNG
@@ -51131,6 +51142,7 @@ YTN	NNP
 라포레	NNP
 라포트	NNP
 라퐁텐	NNP
+라푼젤	NNP
 라푼첼	NNP
 라피드	NNP
 라호야	NNP
@@ -51514,6 +51526,7 @@ YTN	NNP
 론도식	NNG
 론머맨	NNP
 론스타	NNP
+롤랜드	NNP
 롤렉스	NNP
 롤루스	NNP
 롤리타	NNP
@@ -59582,6 +59595,7 @@ YTN	NNP
 브라질	NNP
 브라카	NNP
 브라크	NNP
+브라켈	NNP
 브라헤	NNP
 브란도	NNP
 브란코	NNP
@@ -65835,6 +65849,7 @@ YTN	NNP
 슈마허	NNP
 슈메르	NNP
 슈미트	NNP
+슈바벤	NNP
 슈스터	NNP
 슈우웅	MAG
 슈우조	NNP
@@ -73002,7 +73017,9 @@ YTN	NNP
 요리장	NNG
 요리점	NNG
 요리코	NNP
+요린데	NNP
 요릿집	NNG
+요링겔	NNP
 요망서	NNG
 요법실	NNG
 요부형	NNG
@@ -81446,7 +81463,7 @@ YTN	NNP
 지망자	NNG
 지머맨	NNP
 지멘스	NNP
-지면도	NNG
+지멜리	NNP
 지명도	NNG
 지명자	NNG
 지명전	NNG
@@ -87359,6 +87376,7 @@ YTN	NNP
 트뤼포	NNP
 트르판	NNP
 트리가	NNP
+트리네	NNP
 트리노	NNP
 트리멜	NNP
 트리밍	NNG
@@ -88720,6 +88738,7 @@ YTN	NNP
 폴켈트	NNP
 폴키트	NNG
 폴테크	NNP
+폴트리	NNP
 폴포트	NNP
 폼페이	NNP
 폼포사	NNP
@@ -89071,6 +89090,7 @@ YTN	NNP
 프리거	NNP
 프리그	NNG
 프리단	NNP
+프리더	NNP
 프리덤	NNG
 프리들	NNP
 프리마	NNG
@@ -97259,7 +97279,6 @@ SK	NNP
 글쎄	IC
 글씨	NNG
 글월	NNG
-글을	NNG
 글자	NNG
 글줄	NNG
 글피	NNG
@@ -102756,6 +102775,7 @@ SK	NNP
 리자	NNG
 리장	NNP
 리정	NNG
+리제	NNP
 리젤	NNP
 리젼	NNG
 리즈	NNP
@@ -130653,6 +130673,7 @@ SK	NNP
 홀딩	NNG
 홀딱	MAG
 홀랑	MAG
+홀레	NNP
 홀로	MAG
 홀론	NNP
 홀루	MAG
