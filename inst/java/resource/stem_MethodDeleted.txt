@@ -93372,13 +93372,11 @@ SK	NNP
 가양	NNP
 가엄	NNG
 가업	NNG
-가없	VA
 가역	NNG
 가연	NNG
 가엷	VA
 가엽	VA
 가엾	VA
-가오	NNP
 가옥	NNG
 가왕	NNG
 가외	NNG
@@ -94026,7 +94024,6 @@ SK	NNP
 같이	MAG
 같잖	VA
 갚음	NNG
-개가	NNG
 개각	NNG
 개간	NNG
 개강	NNG
@@ -100093,8 +100090,6 @@ SK	NNP
 달걀	NNG
 달관	NNG
 달궁	NNP
-달기	VV
-달니	NNP
 달떡	NNG
 달뜨	VV
 달레	NNP
@@ -106460,7 +106455,6 @@ SK	NNP
 법요	NNG
 법원	NNG
 법음	NNG
-법의	NNG
 법익	NNG
 법인	NNG
 법장	NNG
@@ -111140,7 +111134,6 @@ SK	NNP
 속요	NNG
 속유	NNG
 속음	NNG
-속이	VV
 속인	NNG
 속임	NNG
 속전	NNG
@@ -111369,18 +111362,13 @@ SK	NNP
 쇠경	NNG
 쇠공	NNG
 쇠귀	NNG
-쇠께	NNG
 쇠꼴	NNG
 쇠뇌	NNG
-쇠도	NNG
 쇠돌	NNG
 쇠똥	NNG
-쇠라	NNP
 쇠락	NNG
-쇠러	NNG
 쇠막	NNG
 쇠망	NNG
-쇠매	NNG
 쇠메	NNG
 쇠멸	NNG
 쇠목	NNG
@@ -111392,7 +111380,6 @@ SK	NNP
 쇠뿔	NNG
 쇠살	NNG
 쇠상	NNG
-쇠서	NNG
 쇠쇠	MAG
 쇠약	NNG
 쇠운	NNG
@@ -116427,7 +116414,6 @@ SK	NNP
 왕년	NNG
 왕눈	NNG
 왕대	NNG
-왕도	NNG
 왕등	NNP
 왕따	NNG
 왕랑	NNP
@@ -122681,7 +122667,6 @@ SK	NNP
 지켈	NNP
 지켜	VV
 지키	VV
-지킬	NNP
 지킴	NNG
 지탄	NNG
 지택	NNP
@@ -128394,7 +128379,6 @@ SK	NNP
 풀쑥	MAG
 풀씨	NNG
 풀움	NNG
-풀이	NNG
 풀잎	NNG
 풀장	NNG
 풀쩍	MAG
@@ -130507,7 +130491,6 @@ SK	NNP
 호은	NNG
 호음	NNG
 호응	NNG
-호의	NNG
 호인	NNG
 호일	NNG
 호자	NNG
@@ -132250,15 +132233,12 @@ SK	NNP
 띵	MAG
 ㄹ	NNG
 락	NNG
-란	NNG
 랜	NNG
 램	NNG
 랩	NNG
 랭	NNG
-러	NNG
 럭	NNG
 런	NNG
-럼	NNG
 레	NNG
 렬	NNG
 령	NNG
