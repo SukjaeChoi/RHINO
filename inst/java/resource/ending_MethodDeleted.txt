@@ -43489,7 +43489,9 @@
 대지	대지/EF	SEPA
 대질	대/VX + 지/EC + ㄹ/JKO	SEPA
 대찬	대차/VA + ㄴ/ETM	SEPA
+대한	대하/VV + ㄴ/ETM	SEPA
 대할	대하/VV + ㄹ/ETM	SEPA
+대함	대하/VV + ㅁ/ETN	SEPA
 대해	대하/VV + 아/EC	SEPA
 대활	대화/NNG + ㄹ/JKO	SEPA
 댁과	댁/XSN + 과/JC	SEPA
