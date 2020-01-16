@@ -1,4 +1,4 @@
-﻿시작에들어가는가상글	시작에들어가는가상글/NNG	SEPA
+﻿abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz/SL	SEPA
 게살기운동중앙협의회	게/EC + 살/VV + 기/ETN + 운동/NNG + 중앙/NNG + 협의회/NNG	SEPA
 내려와버리더라는겔세	내리/VV + 어/EC + 오/VV + 아/EC + 버리/VX + 더라는/ETM + 것/NNB + 이/VCP + ㄹ세/EF	SEPA
 떠밀려나오다시피해서	떠밀리/VV + 어/EC + 나오/VV + 다시피/EC + 하/VX + 아서/EC	SEPA
@@ -34084,7 +34084,7 @@
 신겨져	신기/VV + 어/EC + 지/VX + 어/EC	SEPA
 신곤가	신고/NNG + 이/VCP + ㄴ가/EC	SEPA
 신긴다	신기/VV + ㄴ다/EF	SEPA
-신난다	신나/VA + ㄴ다/EF	SEPA
+신난다	신나/VV + ㄴ다/EF	SEPA
 신느라	신/VV + 느라/EC	SEPA
 신다고	시/EP + ㄴ다고/EC	SEPA
 신다구	시/EP + ㄴ다구/EF	SEPA
