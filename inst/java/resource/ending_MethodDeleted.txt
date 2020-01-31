@@ -20632,8 +20632,6 @@
 염한다고	염하/VV + ㄴ다고/EC	SEPA
 엿보인다	엿보이/VV + ㄴ다/EF	SEPA
 였더랬죠	었/EP + 더랬죠/EF	SEPA
-였습니다	이/VCP + 었/EP + 습니다/EF	SEPA
-였을지도	이/VCP + 었/EP + 을지/EC + 도/JX	SEPA
 영환데요	영화/NNG + 이/VCP + ㄴ데요/EF	SEPA
 예긴데요	이야기/NNG + 이/VCP + ㄴ데요/EF	SEPA
 예뻐보여	예쁘/VA + 어/EC + 보이/VV + 어/EC	SEPA
@@ -36799,10 +36797,6 @@
 엿본다	엿보/VV + ㄴ다/EF	SEPA
 엿봐도	엿보/VV + 아도/EC	SEPA
 엿봐야	엿보/VV + 아야/EC	SEPA
-였는데	이/VCP + 었/EP + 는데/EC	SEPA
-였다고	이/VCP + 었/EP + 다고/EC	SEPA
-였으며	이/VCP + 었/EP + 으며/EC	SEPA
-였지만	이/VCP + 었/EP + 지만/EC	SEPA
 영근다	영글/VV + ㄴ다/EF	SEPA
 영글릴	영글/VV + ㄹ/ETM	SEPA
 옆에서	옆/NNG + 에서/JKB	SEPA
@@ -48591,8 +48585,6 @@
 에	에/JKB	SEPA
 엔	에/JKB + ㄴ/JX	SEPA
 연	열/VV + ㄴ/ETM	SEPA
-엿	이/VCP + 었/EP	SEPA
-였	이/VCP + 었/EP	SEPA
 오	오/EF	SEPA
 온	오/VV + ㄴ/ETM	SEPA
 올	오/VV + ㄹ/ETM	SEPA
