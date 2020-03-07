@@ -2488,14 +2488,10 @@ samsung	NNP
 환경기술개발원	NNP
 환경특별회계법	NNG
 회유전문도기편	NNG
-획스트셀라니스	NNP
 효고연락협의회	NNP
-후곡청구아파트	NNP
 후지산케이그룹	NNP
 후지종합연구소	NNP
 훔볼트종합대학	NNP
-휘경원소감의궤	NNP
-휘국공주희신위	NNG
 휴먼라이츠워치	NNP
 흰배윗수염박쥐	NNG
 히말라야삼나무	NNG
@@ -9923,8 +9919,6 @@ Kakao	NNP
 안산시의회	NNP
 안서도호부	NNP
 안성캠퍼스	NNP
-안소우게서	NNG
-안수길연구	NNP
 안쓰러워하	VV
 안양경찰서	NNP
 안양교도소	NNP
@@ -9936,8 +9930,6 @@ Kakao	NNP
 안양청년회	NNP
 안울림소리	NNG
 안전보장선	NNG
-안쩌이눙뚱	NNG
-안케센아멘	NNP
 안타까워하	VV
 안토노프라	NNP
 안토니아스	NNG
@@ -119134,7 +119126,6 @@ SK	NNP
 일교	NNG
 일구	VV
 일국	NNG
-일군	NNG
 일굽	NR
 일극	NNG
 일금	NNG
@@ -119143,6 +119134,7 @@ SK	NNP
 일긴	NNG
 일껀	MAG
 일껏	MAG
+일꾼	NNG
 일나	VV
 일남	NNG
 일녀	NNG
@@ -132848,5 +132840,6 @@ SK	NNP
 힡	NNG
 규	NNG
 챗	NNG
+젠	NNP
 첸	NNP
 봇	NNG

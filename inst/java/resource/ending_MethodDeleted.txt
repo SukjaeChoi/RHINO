@@ -48569,7 +48569,6 @@
 씬	씨/NNG + ㄴ/JX	SEPA
 씰	씨/NNG + ㄹ/JKO	SEPA
 아	아/EC	SEPA
-안	알/VV + ㄴ/ETM	SEPA
 앎	알/VV + ㅁ/ETN	SEPA
 앗	았/EP	SEPA
 앙	아/EF + ㅇ/EF	SEPA
