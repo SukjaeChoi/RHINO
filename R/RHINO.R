@@ -18,13 +18,14 @@ initRhino <- function() {
 #' Get analyzed Korean morph.
 #' @param sentence Korean sentences. Try Korean words or sentences.
 #' @param type The Part-Of-Speech type you want to extract. ALL(Every POS), noun(NNG, NNP, NP, XR), verb(VV, VA), NV(noun, verb), NVI(noun, verb, IC), END(EC, EF), SIGN(SF, SO, SW, SS, SP,SE), and all every POS(NNG, NNP, NP, NNB, NR, VV, VA, VX, VCP, VCN, MM, MAG, MAJ, IC, JKS, JKC, JKG, JKO, JKB, JKV, JKQ, JX, JC, EP, EF, EC, ETN, ETM, XPN, XSN, XSV, XSA, XR, SF, SS, SP, SE, SO, SL, SH, NF, SW, NV, SN, NA). Default is noun.
+#' @param xrVv if TRUE, make XR+HA to Verb. Default is FALSE.
 #' @param file Currently not realized. Default is FALSE.
 #' @return vector of extracted morph result
 #' @export
 #' @examples
 #' getMorph("Input Korean sentences here.", "NV")
 
-getMorph <- function(sentence, type="noun", file=FALSE)
+getMorph <- function(sentence, type="noun", xrVv=FALSE, file=FALSE)
 {
   if(!exists("rhinoObj"))   # upload dictionary at the first
     initRhino()
@@ -47,16 +48,16 @@ getMorph <- function(sentence, type="noun", file=FALSE)
   }
   else if(file==TRUE) {
     if(type=="noun") {
-    .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "N")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
-      print("Created noun result file result.txt in ./RHINO2.5.5/WORK/RHINO/")
+    .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "N", "FALSE")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
+      print("Created noun result file result.txt in ./RHINO2.7.1/WORK/RHINO/")
     } else if(type=="verb") {
-      .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "V")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
-      print("Created verb result file result.txt in ./RHINO2.5.5/WORK/RHINO/")
+      .jcall(rhinoObj, returnSig = "V", "analyzingText_rJava", "V", "FALSE")  #The rightest option: N-> Noun(NNG, NNP, NP), V-> Verb(VV, VA, XR), NV-> Noun and Verb
+      print("Created verb result file result.txt in ./RHINO2.7.1/WORK/RHINO/")
     } else{
       print("Not Supported Type")
     }
   } else {   #### This is the currently used. Above is not used!!
-    result <- .jcall(rhinoObj, returnSig = "S", "getMorph", sentence, type)
+    result <- .jcall(rhinoObj, returnSig = "S", "getMorph", sentence, type, xrVv)
     Encoding(result) <- "UTF-8"
     resultVec <- unlist(strsplit(result, '\r\n'))
     return(resultVec)

@@ -12108,6 +12108,7 @@
 는이에게	는/ETM + 이/NNB + 에게/JKB	SEPA
 는일이며	는/ETM + 일/NNG + 이/VCP + 며/EC	SEPA
 는자들의	는/ETM + 자/NNB + 들/XSN + 의/JKG	SEPA
+는자에겐	는/ETM + 자/NNB + 에게/JKB + ㄴ/ETM	SEPA
 는자율성	는/JX + 자율/NNG + 성/XSN	SEPA
 는주체적	는/ETM + 주체/NNG + 적/XSN	SEPA
 는지까지	는지/EC + 까지/JX	SEPA
@@ -46711,7 +46712,6 @@
 이룰	이루/VV + ㄹ/ETM	SEPA
 이뤄	이루/VV + 어/EC	SEPA
 이른	이르/VA + ㄴ/ETM	SEPA
-이를	이르/VV + ㄹ/ETM	SEPA
 이리	이/VCP + 리/EF	SEPA
 이마	이/VCP + 마/EC	SEPA
 이만	이/JKS + 만/JX	SEPA

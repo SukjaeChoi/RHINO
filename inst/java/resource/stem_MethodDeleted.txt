@@ -121,7 +121,6 @@ copyrights	NNG
 담양세계대나무박람회	NNP
 담양세계대나무엑스포	NNP
 대구효성카톨릭대학교	NNP
-대성효이세부모신문대	NNP
 대한무역투자진흥공사	NNP
 대한여자기독교청년회	NNP
 대한전몰군경미망인회	NNP
@@ -140,7 +139,6 @@ copyrights	NNG
 매스커스터마이제이션	NNG
 메리트커뮤니케이션스	NNP
 미국여자프로골프협회	NNP
-백자양각당초문표현병	NNP
 범부안군민대책위원회	NNP
 베데스다장애인선교회	NNP
 부산심장병환아상담소	NNP
@@ -198,7 +196,6 @@ copyrights	NNG
 조선기독청년회연합회	NNP
 조선문학예술인총동맹	NNP
 조선민족해방투쟁동맹	NNP
-중국영화발행광영공사	NNP
 지역사회장기관리센타	NNG
 캄보디아지뢰제거쎈터	NNP
 컴퓨터프로그램보호법	NNG
@@ -13338,6 +13335,10 @@ KOREA	NNP
 아이코닉스	NNP
 에너자이저	NNP
 크리에이션	NNG
+히가시니혼	NNP
+위키리크스	NNP
+위키리스크	NNP
+네크로즈마	NNP
 7언절구	NNP
 c발새끼	NNG
 c발시끼	NNG
@@ -38167,6 +38168,9 @@ TV경인	NNP
 패이스북	NNP
 프라우나	NNP
 핫트랙스	NNP
+호쿠리쿠	NNP
+나무위키	NNP
+와이번스	NNP
 4두품	NNG
 6두품	NNG
 7언시	NNG
@@ -38393,7 +38397,6 @@ YTN	NNP
 가맹사	NNG
 가맹점	NNG
 가메이	NNP
-가면고	NNP
 가면극	NNG
 가면무	NNG
 가모노	NNP
@@ -48235,7 +48238,6 @@ YTN	NNP
 대물림	NNG
 대미관	NNG
 대바람	NNG
-대박이	NNG
 대방동	NNP
 대방역	NNP
 대방왕	NNP
@@ -60460,7 +60462,6 @@ YTN	NNP
 사갑들	NNP
 사거리	NNG
 사건부	NNG
-사건사	NNG
 사격대	NNG
 사격문	NNG
 사격배	NNG
@@ -85571,7 +85572,7 @@ YTN	NNP
 코렉스	NNP
 코렐리	NNP
 코렐사	NNP
-코로나	NNG
+코로나	NNP
 코론냐	NNG
 코롤라	NNG
 코르노	NNP
@@ -90624,7 +90625,6 @@ YTN	NNP
 해주항	NNP
 해즈릿	NNP
 해즐릿	NNP
-해지기	NNP
 해직자	NNG
 해질녘	NNG
 해찬들	NNP
@@ -93306,6 +93306,7 @@ YTN	NNP
 프로토	NNP
 휘닉스	NNP
 힐리오	NNP
+조에츠	NNP
 1G	NNP
 2G	NNP
 3G	NNP
@@ -93393,7 +93394,6 @@ SK	NNP
 가매	NNG
 가맹	NNG
 가메	NNG
-가면	NNG
 가명	NNG
 가목	NNG
 가몽	NNP
@@ -118733,6 +118733,7 @@ SK	NNP
 이념	NNG
 이녕	NNG
 이놈	NP
+이눔	NP
 이농	NNG
 이뇨	NNG
 이능	NNP
@@ -132156,6 +132157,9 @@ SK	NNP
 쿠쿠	NNP
 한화	NNP
 챗봇	NNG
+간토	NNP
+위키	NNP
+마토	NNP
 ㄱ	NNG
 갉	VV
 갑	NNG

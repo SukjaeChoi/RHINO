@@ -4,12 +4,14 @@
 \alias{getMorph}
 \title{getMorph}
 \usage{
-getMorph(sentence, type = "noun", file = FALSE)
+getMorph(sentence, type = "noun", xrVv = FALSE, file = FALSE)
 }
 \arguments{
 \item{sentence}{Korean sentences. Try Korean words or sentences.}
 
 \item{type}{The Part-Of-Speech type you want to extract. ALL(Every POS), noun(NNG, NNP, NP, XR), verb(VV, VA), NV(noun, verb), NVI(noun, verb, IC), END(EC, EF), SIGN(SF, SO, SW, SS, SP,SE), and all every POS(NNG, NNP, NP, NNB, NR, VV, VA, VX, VCP, VCN, MM, MAG, MAJ, IC, JKS, JKC, JKG, JKO, JKB, JKV, JKQ, JX, JC, EP, EF, EC, ETN, ETM, XPN, XSN, XSV, XSA, XR, SF, SS, SP, SE, SO, SL, SH, NF, SW, NV, SN, NA). Default is noun.}
+
+\item{xrVv}{if TRUE, make XR+HA to Verb. Default is FALSE.}
 
 \item{file}{Currently not realized. Default is FALSE.}
 }
