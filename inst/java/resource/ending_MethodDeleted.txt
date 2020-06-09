@@ -1,4 +1,4 @@
-﻿abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz/SL	SEPA
+﻿시작에들어가는가상글	시작에들어가는가상글/NNG	SEPA
 게살기운동중앙협의회	게/EC + 살/VV + 기/ETN + 운동/NNG + 중앙/NNG + 협의회/NNG	SEPA
 내려와버리더라는겔세	내리/VV + 어/EC + 오/VV + 아/EC + 버리/VX + 더라는/ETM + 것/NNB + 이/VCP + ㄹ세/EF	SEPA
 떠밀려나오다시피해서	떠밀리/VV + 어/EC + 나오/VV + 다시피/EC + 하/VX + 아서/EC	SEPA
@@ -1308,6 +1308,8 @@
 아니옵니다요	아니/VCN + 오/EP + ㅂ니다요/EF	SEPA
 아니잖습니까	아니/VCN + 지/EC + 않/VA + 습니까/EF	SEPA
 아니지만서두	아니/VCN + 지만서두/EC	SEPA
+아니하였다는	아니하/VX + 었/EP + 다는/ETM	SEPA
+아니하였어도	아니하/VX + 었/EP + 어도/EC	SEPA
 아닌가조차도	아니/VCN + ㄴ가/EC + 조차/JX + 도/JX	SEPA
 아닌게아니라	아니/VCN + ㄴ/ETM + 것/NNB + 이/JKC + 아니/VCN + 라/EC	SEPA
 아닙니까요이	아니/VCN + ㅂ니까요이/EF	SEPA
@@ -12666,6 +12668,7 @@
 대에서도	대/XSN + 에서/JKB + 도/JX	SEPA
 대이었던	대/XSN + 이/VCP + 었/EP + 던/ETM	SEPA
 대짜리를	대/XSN + 짜리/XSN + 를/JKO	SEPA
+대하여는	대하/VV + 여/EC + 는.JX	SEPA
 대한다고	대하/VV + ㄴ다고/EC	SEPA
 대한다는	대하/VV + ㄴ다는/ETM	SEPA
 대한다면	대하/VV + ㄴ다면/EC	SEPA
@@ -27495,7 +27498,6 @@
 나다닌	나다니/VV + ㄴ/ETM	SEPA
 나다닐	나다니/VV + ㄹ/ETM	SEPA
 나도는	나돌/VV + 는/ETM	SEPA
-나도록	나/VX + 도록/EC	SEPA
 나돈다	나돌/VV + ㄴ다/EF	SEPA
 나뒹군	나뒹굴/VV + ㄴ/ETM	SEPA
 나라는	나/JX + 이/VCP + 라는/ETM	SEPA
@@ -27596,7 +27598,6 @@
 나이다	나이다/EF	SEPA
 나이일	나이/NNG + 이/VCP + ㄹ/ETM	SEPA
 나제나	나/JC + 제/NNG + 나/JC	SEPA
-나지만	나/VX + 지만/EC	SEPA
 나처럼	나/JX + 처럼/JKB	SEPA
 나타난	나타나/VV + ㄴ/ETM	SEPA
 나타날	나타나/VV + ㄹ/ETM	SEPA
@@ -28526,8 +28527,8 @@
 늙은일	늙은이/NNG + ㄹ/JKO	SEPA
 능가만	능가만/EF	SEPA
 능가앙	능가앙/EF	SEPA
-능해서	능하/VV + 아서/EC	SEPA
-능해야	능하/VV + 아야/EC	SEPA
+능해서	능하/VA + 아서/EC	SEPA
+능해야	능하/VA + 아야/EC	SEPA
 늦배운	늦배우/VV + ㄴ/ETM	SEPA
 늦자란	늦자라/VV + ㄴ/ETM	SEPA
 늦춘다	늦추/VV + ㄴ다/EF	SEPA
@@ -38918,6 +38919,7 @@
 조차가	조차/JX + 가/JKS	SEPA
 조차도	조차/JX + 도/JX	SEPA
 조차를	조차/JX + 를/JKO	SEPA
+조부터	조/NNB + 부터/JX	SEPA
 조촐한	조촐하/VA + ㄴ/ETM	SEPA
 조칸지	조카/NNG + 이/VCP + ㄴ지/EC	SEPA
 조칼세	조카/NNG + 이/VCP + ㄹ세/EF	SEPA
@@ -40665,7 +40667,6 @@
 하길래	하/VV + 길래/EC	SEPA
 하끼요	하/VV + 것/NNB + 이/VCP + 요/EF	SEPA
 하나니	하/VV + 나니/EC	SEPA
-하나를	하/VV + 나/EC + 를/JKO	SEPA
 하나마	하/VV + 나마/EC	SEPA
 하나만	하/VV + 나/EC + 만/JX	SEPA
 하나봐	하/VV + 나/EC + 보/VX + 아/EF	SEPA
@@ -42764,10 +42765,6 @@
 나갈	나가/VV + ㄹ/ETM	SEPA
 나감	나가/VV + ㅁ/ETN	SEPA
 나갓	나가/VV + 아/EF	SEPA
-나게	나/VX + 게/EC	SEPA
-나고	나/VX + 고/EC	SEPA
-나곤	나/VX + 곤/EC	SEPA
-나기	나/VX + 기/ETN	SEPA
 나눈	나누/VV + ㄴ/ETM	SEPA
 나눌	나누/VV + ㄹ/ETM	SEPA
 나눔	나누/VV + ㅁ/ETN	SEPA
@@ -43221,8 +43218,8 @@
 능겨	능겨/EF	SEPA
 능교	능교/EF	SEPA
 능만	능만/EF	SEPA
-능한	능하/VV + ㄴ/ETM	SEPA
-능해	능하/VV + 아/EC	SEPA
+능한	능하/VA + ㄴ/ETM	SEPA
+능해	능하/VA + 아/EC	SEPA
 늦된	늦되/VV + ㄴ/ETM	SEPA
 늦춘	늦추/VV + ㄴ/ETM	SEPA
 늦출	늦추/VV + ㄹ/ETM	SEPA
@@ -43611,7 +43608,6 @@
 도로	도/JX + 로/JKB	SEPA
 도록	도록/EC	SEPA
 도를	도/JX + 를/JKO	SEPA
-도만	도만/EF	SEPA
 도야	도/JX + 이/VCP + 야/EF	SEPA
 도에	도/JX + 에/JKB	SEPA
 도오	도/JX	SEPA
@@ -45856,6 +45852,7 @@
 안긴	안기/VV + ㄴ/ETM	SEPA
 안길	안기/VV + ㄹ/ETM	SEPA
 안께	알/VV + ㄴ께/EC	SEPA
+안날	안/MAG + 나/VV + ㄹ/ETM	SEPA
 안다	알/VV + ㄴ다/EF	SEPA
 안단	알/VV + ㄴ단/ETM	SEPA
 안담	알/VV + ㄴ담/EF	SEPA
@@ -46804,8 +46801,6 @@
 입쇼	이/VCP + ㅂ쇼/EF	SEPA
 입어	입/VV + 어/EC	SEPA
 입에	입/NNG + 에/JKB	SEPA
-입은	입/VV + 은/ETM	SEPA
-입을	입/VV + 을/ETM	SEPA
 입혀	입히/VV + 어/EC	SEPA
 입힌	입히/VV + ㄴ/ETM	SEPA
 입힐	입히/VV + ㄹ/ETM	SEPA
@@ -46851,7 +46846,6 @@
 자람	자라/VV + ㅁ/ETN	SEPA
 자로	자/EC + 로/JKB	SEPA
 자른	자르/VV + ㄴ/ETM	SEPA
-자를	자르/VV + ㄹ/ETM	SEPA
 자린	자리/NNG + ㄴ/JX	SEPA
 자릴	자리/NNG + ㄹ/JKO	SEPA
 자며	자며/EC	SEPA
@@ -48419,7 +48413,6 @@
 댜	댜/EF	SEPA
 던	던/ETM	SEPA
 덜	들/XSN	SEPA
-도	도/JX	SEPA
 돈	돌/VV + ㄴ/ETM	SEPA
 돼	되/VV + 어/EC	SEPA
 됐	되/VV + 었/EP	SEPA
