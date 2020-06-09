@@ -23616,6 +23616,7 @@
 토해본다	토하/VV + 아/EC + 보/VX + ㄴ다/EF	SEPA
 통한다고	통하/VV + ㄴ다고/EC	SEPA
 통한다는	통하/VV + ㄴ다는/ETM	SEPA
+통합니다	통하/VV + ㅂ니다/EF	SEPA
 통해봐도	통하/VV + 아/EC + 보/VX + 아도/EC	SEPA
 통해서요	통하/VV + 아서요/EF	SEPA
 통해서일	통하/VV + 아서/EC + 이/VCP + ㄹ/ETM	SEPA
